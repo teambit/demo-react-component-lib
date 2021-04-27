@@ -1,0 +1,6 @@
+.checkboxLabel {
+  user-select: none;
+  input:disabled ~ * {
+    color: var(--text-muted);
+  }
+}

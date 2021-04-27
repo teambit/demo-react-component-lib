@@ -1,0 +1,62 @@
+@import '~@teambit/base-ui.theme.colors/colors.module.scss';
+
+/**
+ * CSS colors and variables for the app.
+ *
+ * -   Sets default text color
+ * -   `--base-color` - default color (cta color, etc)
+ * -   `--base-highlight` - default color for highlight (cta hover, etc)
+ * -   `--border-color`
+ * -   `--bg-color` - background color
+ * -   `--separator-color`
+ *  
+ * ### backgrounds:
+ * As elements stacks closer to the user, its color changes. their color change.  
+ * This is especially noticeable in dark mode (higher elements are lighter).  
+ *  
+ * We created 4 levels of possible backgrounds, from bottom to top:
+ * -   `--bg-bedrock` - i.e. <body/> background
+ * -   `--bg-base` - e.g. navigation elements and wireframes
+ * -   `--bg-layer` - workspaces, e.g. card. (may be sub-divided in the future)
+ * -   `--bg-crust` - overlay ui, e.g. tooltip.
+ * -   `--bg-topping` - "bumps" on top level surfaces e.g. button, input, etc
+ */
+
+.primaryPalette {
+  color: $d50;
+  --text-highlight: #{$d60};
+  --text-color: #{$d50};
+  --text-muted: #{$d40};
+  --steel-color: #{$d30};
+
+  --base-color: #{$p50};
+  --base-highlight: #{$p60};
+
+  --border-color: #{$d10};
+  --light-border-color: #{$d80};
+  --bg-color: #{$w10};
+  --separator-color: #{$d20};
+
+  --muted-color: #{$p20}; //unsettled
+  --muted-highlight: #{$p30}; //unsettled
+
+  --error-color: #{$r50};
+  --error-highlight: #{$r60};
+  --bg-error: #{$r20};
+
+  --bg-bedrock: #{$w10}; // i.e. <body/> background
+  --bg-base: #{$w10}; // e.g. navigation
+  --bg-layer: #{$w10}; // e.g. card
+  --bg-crust: #{$w10}; // e.g. tooltip
+  --bg-topping: #{$w10}; // e.g. button, input, etc
+  --bg-topping-highlight: #{$w20};
+  --bg-dent: #{$w20};
+
+  // deprecated (overly specific):
+  --primary-button-width: 199px;
+  --primary-button-height: 46px;
+  --cta-button-text: #{$w10};
+  --primary-label-bg: #{$p50};
+  --primary-label-text: #{$w10};
+  --primary-label-width: 50px;
+}

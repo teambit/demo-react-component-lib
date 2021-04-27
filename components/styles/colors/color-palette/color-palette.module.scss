@@ -1,0 +1,53 @@
+@import '~@teambit/base-ui.theme.colors/colors.module.scss';
+
+// brand colors
+.primary {
+  --base-color: #{$p50};
+  --base-highlight: #{$p60};
+}
+
+.secondary {
+  --base-color: #{$b50};
+  --base-highlight: #{$b60};
+}
+
+.complementary {
+  --base-color: #{$pink50};
+  --base-highlight: #{$pink60};
+}
+
+// intents
+.impulsive {
+  --base-color: #{$r50};
+  --base-highlight: #{$r60};
+}
+
+.hungry {
+  --base-color: #{$y50};
+  --base-highlight: #{$y60};
+}
+
+.success {
+  --base-color: #{$g50};
+  --base-highlight: #{$g60};
+}
+
+// weight
+.emphasized {
+  --base-color: #{$d60};
+  --base-highlight: #{$d70};
+}
+
+.neutral {
+  --base-color: #{$d50};
+  --base-highlight: #{$d60};
+}
+
+.muted {
+  --base-color: #{$d40};
+  --base-highlight: #{$d50};
+
+  //unsettled:
+  --bg-topping: #{$p20};
+  --bg-topping-highlight: #{$p30};
+}

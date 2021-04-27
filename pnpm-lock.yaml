@@ -1,0 +1,316 @@
+importers:
+  .:
+    dependencies:
+      classnames: registry.npmjs.org/classnames/2.2.6
+      core-js: registry.npmjs.org/core-js/3.11.0
+    devDependencies:
+      '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.18
+      '@types/jest': registry.npmjs.org/@types/jest/26.0.23
+      '@types/node': registry.npmjs.org/@types/node/12.20.4
+      '@types/react': registry.npmjs.org/@types/react/16.14.5
+    specifiers:
+      '@babel/runtime': 7.12.18
+      '@types/jest': ^26.0.23
+      '@types/node': 12.20.4
+      '@types/react': ^16.14.5
+      classnames: 2.2.6
+      core-js: ^3.11.0
+  components/elements/check-box/hidden:
+    specifiers: {}
+  components/elements/check-box/indicator:
+    specifiers: {}
+  components/elements/check-box/label:
+    specifiers: {}
+  components/elements/checkbox/hidden:
+    specifiers: {}
+  components/elements/checkbox/indicator:
+    specifiers: {}
+lockfileVersion: 5.2
+packages:
+  registry.npmjs.org/@babel/runtime/7.12.18:
+    dependencies:
+      regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.7
+    dev: true
+    name: '@babel/runtime'
+    resolution:
+      integrity: sha512-BogPQ7ciE6SYAUPtlm9tWbgI9+2AgqSam6QivMgXgAT+fKbgppaj4ZX15MHeLC1PVF5sNk70huBu20XxWOs8Cg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@babel/runtime/-/runtime-7.12.18.tgz
+    version: 7.12.18
+  registry.npmjs.org/@jest/types/26.6.2:
+    dependencies:
+      '@types/istanbul-lib-coverage': registry.npmjs.org/@types/istanbul-lib-coverage/2.0.3
+      '@types/istanbul-reports': registry.npmjs.org/@types/istanbul-reports/3.0.0
+      '@types/node': registry.npmjs.org/@types/node/12.20.4
+      '@types/yargs': registry.npmjs.org/@types/yargs/15.0.13
+      chalk: registry.npmjs.org/chalk/4.1.1
+    dev: true
+    engines:
+      node: '>= 10.14.2'
+    name: '@jest/types'
+    resolution:
+      integrity: sha512-fC6QCp7Sc5sX6g8Tvbmj4XUTbyrik0akgRy03yjXbQaBWWNWGE7SGtJk98m0N8nzegD/7SggrUlivxo5ax4KWQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@jest/types/-/types-26.6.2.tgz
+    version: 26.6.2
+  registry.npmjs.org/@types/istanbul-lib-coverage/2.0.3:
+    dev: true
+    name: '@types/istanbul-lib-coverage'
+    resolution:
+      integrity: sha512-sz7iLqvVUg1gIedBOvlkxPlc8/uVzyS5OwGz1cKjXzkl3FpL3al0crU8YGU1WoHkxn0Wxbw5tyi6hvzJKNzFsw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.3.tgz
+    version: 2.0.3
+  registry.npmjs.org/@types/istanbul-lib-report/3.0.0:
+    dependencies:
+      '@types/istanbul-lib-coverage': registry.npmjs.org/@types/istanbul-lib-coverage/2.0.3
+    dev: true
+    name: '@types/istanbul-lib-report'
+    resolution:
+      integrity: sha512-plGgXAPfVKFoYfa9NpYDAkseG+g6Jr294RqeqcqDixSbU34MZVJRi/P+7Y8GDpzkEwLaGZZOpKIEmeVZNtKsrg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/istanbul-lib-report/-/istanbul-lib-report-3.0.0.tgz
+    version: 3.0.0
+  registry.npmjs.org/@types/istanbul-reports/3.0.0:
+    dependencies:
+      '@types/istanbul-lib-report': registry.npmjs.org/@types/istanbul-lib-report/3.0.0
+    dev: true
+    name: '@types/istanbul-reports'
+    resolution:
+      integrity: sha512-nwKNbvnwJ2/mndE9ItP/zc2TCzw6uuodnF4EHYWD+gCQDVBuRQL5UzbZD0/ezy1iKsFU2ZQiDqg4M9dN4+wZgA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/istanbul-reports/-/istanbul-reports-3.0.0.tgz
+    version: 3.0.0
+  registry.npmjs.org/@types/jest/26.0.23:
+    dependencies:
+      jest-diff: registry.npmjs.org/jest-diff/26.6.2
+      pretty-format: registry.npmjs.org/pretty-format/26.6.2
+    dev: true
+    name: '@types/jest'
+    resolution:
+      integrity: sha512-ZHLmWMJ9jJ9PTiT58juykZpL7KjwJywFN3Rr2pTSkyQfydf/rk22yS7W8p5DaVUMQ2BQC7oYiU3FjbTM/mYrOA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/jest/-/jest-26.0.23.tgz
+    version: 26.0.23
+  registry.npmjs.org/@types/node/12.20.4:
+    dev: true
+    name: '@types/node'
+    resolution:
+      integrity: sha512-xRCgeE0Q4pT5UZ189TJ3SpYuX/QGl6QIAOAIeDSbAVAd2gX1NxSZup4jNVK7cxIeP8KDSbJgcckun495isP1jQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/node/-/node-12.20.4.tgz
+    version: 12.20.4
+  registry.npmjs.org/@types/prop-types/15.7.3:
+    dev: true
+    name: '@types/prop-types'
+    resolution:
+      integrity: sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.3.tgz
+    version: 15.7.3
+  registry.npmjs.org/@types/react/16.14.5:
+    dependencies:
+      '@types/prop-types': registry.npmjs.org/@types/prop-types/15.7.3
+      '@types/scheduler': registry.npmjs.org/@types/scheduler/0.16.1
+      csstype: registry.npmjs.org/csstype/3.0.8
+    dev: true
+    name: '@types/react'
+    resolution:
+      integrity: sha512-YRRv9DNZhaVTVRh9Wmmit7Y0UFhEVqXqCSw3uazRWMxa2x85hWQZ5BN24i7GXZbaclaLXEcodEeIHsjBA8eAMw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/react/-/react-16.14.5.tgz
+    version: 16.14.5
+  registry.npmjs.org/@types/scheduler/0.16.1:
+    dev: true
+    name: '@types/scheduler'
+    resolution:
+      integrity: sha512-EaCxbanVeyxDRTQBkdLb3Bvl/HK7PBK6UJjsSixB0iHKoWxE5uu2Q/DgtpOhPIojN0Zl1whvOd7PoHs2P0s5eA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.1.tgz
+    version: 0.16.1
+  registry.npmjs.org/@types/yargs-parser/20.2.0:
+    dev: true
+    name: '@types/yargs-parser'
+    resolution:
+      integrity: sha512-37RSHht+gzzgYeobbG+KWryeAW8J33Nhr69cjTqSYymXVZEN9NbRYWoYlRtDhHKPVT1FyNKwaTPC1NynKZpzRA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/yargs-parser/-/yargs-parser-20.2.0.tgz
+    version: 20.2.0
+  registry.npmjs.org/@types/yargs/15.0.13:
+    dependencies:
+      '@types/yargs-parser': registry.npmjs.org/@types/yargs-parser/20.2.0
+    dev: true
+    name: '@types/yargs'
+    resolution:
+      integrity: sha512-kQ5JNTrbDv3Rp5X2n/iUu37IJBDU2gsZ5R/g1/KHOOEc5IKfUFjXT6DENPGduh08I/pamwtEq4oul7gUqKTQDQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@types/yargs/-/yargs-15.0.13.tgz
+    version: 15.0.13
+  registry.npmjs.org/ansi-regex/5.0.0:
+    dev: true
+    engines:
+      node: '>=8'
+    name: ansi-regex
+    resolution:
+      integrity: sha512-bY6fj56OUQ0hU1KjFNDQuJFezqKdrAyFdIevADiqrWHwSlbmBNMHp5ak2f40Pm8JTFyM2mqxkG6ngkHO11f/lg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.0.tgz
+    version: 5.0.0
+  registry.npmjs.org/ansi-styles/4.3.0:
+    dependencies:
+      color-convert: registry.npmjs.org/color-convert/2.0.1
+    dev: true
+    engines:
+      node: '>=8'
+    name: ansi-styles
+    resolution:
+      integrity: sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz
+    version: 4.3.0
+  registry.npmjs.org/chalk/4.1.1:
+    dependencies:
+      ansi-styles: registry.npmjs.org/ansi-styles/4.3.0
+      supports-color: registry.npmjs.org/supports-color/7.2.0
+    dev: true
+    engines:
+      node: '>=10'
+    name: chalk
+    resolution:
+      integrity: sha512-diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/chalk/-/chalk-4.1.1.tgz
+    version: 4.1.1
+  registry.npmjs.org/classnames/2.2.6:
+    dev: false
+    name: classnames
+    resolution:
+      integrity: sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/classnames/-/classnames-2.2.6.tgz
+    version: 2.2.6
+  registry.npmjs.org/color-convert/2.0.1:
+    dependencies:
+      color-name: registry.npmjs.org/color-name/1.1.4
+    dev: true
+    engines:
+      node: '>=7.0.0'
+    name: color-convert
+    resolution:
+      integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz
+    version: 2.0.1
+  registry.npmjs.org/color-name/1.1.4:
+    dev: true
+    name: color-name
+    resolution:
+      integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz
+    version: 1.1.4
+  registry.npmjs.org/core-js/3.11.0:
+    dev: false
+    name: core-js
+    requiresBuild: true
+    resolution:
+      integrity: sha512-bd79DPpx+1Ilh9+30aT5O1sgpQd4Ttg8oqkqi51ZzhedMM1omD2e6IOF48Z/DzDCZ2svp49tN/3vneTK6ZBkXw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/core-js/-/core-js-3.11.0.tgz
+    version: 3.11.0
+  registry.npmjs.org/csstype/3.0.8:
+    dev: true
+    name: csstype
+    resolution:
+      integrity: sha512-jXKhWqXPmlUeoQnF/EhTtTl4C9SnrxSH/jZUih3jmO6lBKr99rP3/+FmrMj4EFpOXzMtXHAZkd3x0E6h6Fgflw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/csstype/-/csstype-3.0.8.tgz
+    version: 3.0.8
+  registry.npmjs.org/diff-sequences/26.6.2:
+    dev: true
+    engines:
+      node: '>= 10.14.2'
+    name: diff-sequences
+    resolution:
+      integrity: sha512-Mv/TDa3nZ9sbc5soK+OoA74BsS3mL37yixCvUAQkiuA4Wz6YtwP/K47n2rv2ovzHZvoiQeA5FTQOschKkEwB0Q==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/diff-sequences/-/diff-sequences-26.6.2.tgz
+    version: 26.6.2
+  registry.npmjs.org/has-flag/4.0.0:
+    dev: true
+    engines:
+      node: '>=8'
+    name: has-flag
+    resolution:
+      integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz
+    version: 4.0.0
+  registry.npmjs.org/jest-diff/26.6.2:
+    dependencies:
+      chalk: registry.npmjs.org/chalk/4.1.1
+      diff-sequences: registry.npmjs.org/diff-sequences/26.6.2
+      jest-get-type: registry.npmjs.org/jest-get-type/26.3.0
+      pretty-format: registry.npmjs.org/pretty-format/26.6.2
+    dev: true
+    engines:
+      node: '>= 10.14.2'
+    name: jest-diff
+    resolution:
+      integrity: sha512-6m+9Z3Gv9wN0WFVasqjCL/06+EFCMTqDEUl/b87HYK2rAPTyfz4ZIuSlPhY51PIQRWx5TaxeF1qmXKe9gfN3sA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/jest-diff/-/jest-diff-26.6.2.tgz
+    version: 26.6.2
+  registry.npmjs.org/jest-get-type/26.3.0:
+    dev: true
+    engines:
+      node: '>= 10.14.2'
+    name: jest-get-type
+    resolution:
+      integrity: sha512-TpfaviN1R2pQWkIihlfEanwOXK0zcxrKEE4MlU6Tn7keoXdN6/3gK/xl0yEh8DOunn5pOVGKf8hB4R9gVh04ig==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/jest-get-type/-/jest-get-type-26.3.0.tgz
+    version: 26.3.0
+  registry.npmjs.org/pretty-format/26.6.2:
+    dependencies:
+      '@jest/types': registry.npmjs.org/@jest/types/26.6.2
+      ansi-regex: registry.npmjs.org/ansi-regex/5.0.0
+      ansi-styles: registry.npmjs.org/ansi-styles/4.3.0
+      react-is: registry.npmjs.org/react-is/17.0.2
+    dev: true
+    engines:
+      node: '>= 10'
+    name: pretty-format
+    resolution:
+      integrity: sha512-7AeGuCYNGmycyQbCqd/3PWH4eOoX/OiCa0uphp57NVTeAGdJGaAliecxwBDHYQCIvrW7aDBZCYeNTP/WX69mkg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/pretty-format/-/pretty-format-26.6.2.tgz
+    version: 26.6.2
+  registry.npmjs.org/react-is/17.0.2:
+    dev: true
+    name: react-is
+    resolution:
+      integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz
+    version: 17.0.2
+  registry.npmjs.org/regenerator-runtime/0.13.7:
+    dev: true
+    name: regenerator-runtime
+    resolution:
+      integrity: sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz
+    version: 0.13.7
+  registry.npmjs.org/supports-color/7.2.0:
+    dependencies:
+      has-flag: registry.npmjs.org/has-flag/4.0.0
+    dev: true
+    engines:
+      node: '>=8'
+    name: supports-color
+    resolution:
+      integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz
+    version: 7.2.0
