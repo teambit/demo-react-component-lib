@@ -38,6 +38,7 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
+        "@testing-library/react": "11.2.6",
         "react-tooltip": "4.2.18",
         "uuid": "8.3.2"
       },

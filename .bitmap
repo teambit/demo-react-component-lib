@@ -109,6 +109,12 @@
         "mainFile": "index.ts",
         "rootDir": "components/styles/sizes/sizes"
     },
+    "text-input": {
+        "scope": "",
+        "version": "",
+        "mainFile": "input/index.ts",
+        "rootDir": "components/design-system/text-input"
+    },
     "theme-provider": {
         "scope": "",
         "version": "",
