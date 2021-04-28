@@ -1,0 +1,54 @@
+---
+labels: ['ui', 'css-components']
+description: A menu transition effect to animate the openning and closing of a dropdown menu
+---
+
+import classNames from 'classnames';
+import { Dropdown, Item } from '@learn-harmony/design-system.dropdown';
+import exampleStyles from './menu-transition.example.module.scss';
+import { menuTransition, rightMenuTransition, centerMenuTransition } from './';
+
+## Overview:
+
+This is a css only component. use it to add effects to any dropdown that toggles using the `data-open` attribute.
+
+## Usage:
+
+```ts live
+<Dropdown
+  style={{ width: '80%', margin: 10 }}
+  menuClass={classNames(menuTransition, exampleStyles.center)}
+  placeholder={false}
+  placeholderTitle="left transition effect"
+>
+  <Item name="user" />
+  <Item name="user" />
+  <Item name="user" />
+</Dropdown>
+```
+
+```ts live
+<Dropdown
+  style={{ width: '80%', margin: 10 }}
+  menuClass={classNames(rightMenuTransition, exampleStyles.center)}
+  placeholder={false}
+  placeholderTitle="right transition effect"
+>
+  <Item name="user" />
+  <Item name="user" />
+  <Item name="user" />
+</Dropdown>
+```
+
+```ts live
+<Dropdown
+  style={{ width: '80%', margin: 10 }}
+  menuClass={classNames(centerMenuTransition, exampleStyles.center)}
+  placeholder={false}
+  placeholderTitle="center transition effect"
+>
+  <Item name="user" />
+  <Item name="user" />
+  <Item name="user" />
+</Dropdown>
+```

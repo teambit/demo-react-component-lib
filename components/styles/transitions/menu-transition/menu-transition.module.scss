@@ -1,0 +1,25 @@
+.baseTransition {
+  transition: transform 100ms, visibility 100ms, opacity 100ms ease-in-out;
+  transform: scale(0.8);
+  opacity: 0;
+
+  [data-open='true'] & {
+      transition: transform 100ms, visibility 100ms, opacity 100ms ease-in-out;
+      transform: scale(1);
+      opacity: 1;
+  }
+}
+.menuTransition {
+  @extend .baseTransition;
+  transform-origin: 0 0;
+}
+
+.rightMenuTransition {
+  @extend .baseTransition;
+  transform-origin: 100% 0;
+}
+
+.centerMenuTransition {
+  @extend .baseTransition;
+  transform-origin: 50% 0;
+}

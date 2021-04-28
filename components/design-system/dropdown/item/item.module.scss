@@ -1,19 +1,18 @@
-
 .item {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    padding: 8px 24px;
-    > div:first-child {
-        margin-right: 8px;
-        flex-shrink: 0;
-    }
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px 24px;
+  > div:first-child {
+    margin-right: 8px;
+    flex-shrink: 0;
+  }
 }
 
 .active {
-    background-color: var( --muted-color, #ECEAFF);
-    cursor: unset;
-    &:hover {
-        background-color: var( --muted-color, #ECEAFF);   
-    }
+  background-color: var(--muted-color, #eceaff);
+  cursor: unset;
+  &:hover {
+    background-color: var(--muted-color, #eceaff);
+  }
 }

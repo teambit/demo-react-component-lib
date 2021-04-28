@@ -13,6 +13,12 @@
         "mainFile": "index.ts",
         "rootDir": "components/design-system/avatar"
     },
+    "characteristics/hoverable": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "components/styles/characteristics/hoverable"
+    },
     "checkbox": {
         "scope": "",
         "version": "",
@@ -67,6 +73,12 @@
         "mainFile": "index.ts",
         "rootDir": "components/elements/drawer"
     },
+    "dropdown": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "components/design-system/dropdown"
+    },
     "ellipsis": {
         "scope": "",
         "version": "",
@@ -102,6 +114,12 @@
         "version": "",
         "mainFile": "index.tsx",
         "rootDir": "components/styles/theme-provider"
+    },
+    "transitions/menu-transition": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "components/styles/transitions/menu-transition"
     },
     "utility-functions/get-initials": {
         "scope": "",

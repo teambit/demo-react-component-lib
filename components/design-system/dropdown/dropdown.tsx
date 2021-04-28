@@ -1,9 +1,10 @@
 import React, { HTMLAttributes, ReactNode } from 'react';
 import classNames from 'classnames';
-import { Drawer, DrawerProps } from '@teambit/base-ui.surfaces.drawer';
-import { BaseIcon } from '@teambit/base-ui.elements.icon';
+import { Drawer, DrawerProps } from '@learn-harmony/elements.drawer';
+// import { BaseIcon } from '@teambit/base-ui.elements.icon';
 import { Menu } from './menu';
 import styles from './dropdown.module.scss';
+import { DownArrow } from './down-arrow';
 
 export type DropdownProps = {
   /**
@@ -50,7 +51,9 @@ export function Dropdown({
 }: DropdownProps) {
   const preventOpenIfDisabled = disabled ? false : open; // prevent openning dropdown if disabled
   const title = placeholder || (
-    <DefaultPlaceholder className={classNames(disabled && styles.disabled, placeholderClass)}>
+    <DefaultPlaceholder
+      className={classNames(disabled && styles.disabled, placeholderClass)}
+    >
       {placeholderTitle}
     </DefaultPlaceholder>
   );
@@ -68,11 +71,15 @@ export function Dropdown({
 
 export type DefaultPlaceholderProps = {} & HTMLAttributes<HTMLDivElement>;
 
-export function DefaultPlaceholder({ children, className, ...rest }: DefaultPlaceholderProps) {
+export function DefaultPlaceholder({
+  children,
+  className,
+  ...rest
+}: DefaultPlaceholderProps) {
   return (
     <div {...rest} className={classNames(styles.defaultPlaceholder, className)}>
       {children}
-      <BaseIcon of="bitcon-fat-arrow-down" />
+      <DownArrow />
     </div>
   );
 }
