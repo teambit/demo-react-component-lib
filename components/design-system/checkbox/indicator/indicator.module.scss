@@ -13,11 +13,6 @@
 
   transition: background-color 80ms, border-color 80ms;
 
-  // placeholder for vertical alignment
-  &::before {
-    content: ' '; // <- using 'nbsp' space
-  }
-
   input:focus + & {
     box-shadow: 0 0 0 0.125em var(--muted-color);
     outline: none;
@@ -53,7 +48,7 @@
   visibility: hidden;
   color: white;
   font-size: 0.76em;
-
+  font-weight: 700;
   // icon font interferes with vertical positioning
   // and may 'jump' when the icon-font loads.
   // positioning it absolutely cancels this effect.

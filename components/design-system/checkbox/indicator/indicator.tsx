@@ -6,7 +6,7 @@ import {
   CheckboxIndicatorProps as BaseProps,
 } from '@learn-harmony/elements.checkbox.indicator';
 
-import styles from './checkbox-indicator.module.scss';
+import styles from './indicator.module.scss';
 
 export type CheckboxIndicatorProps = BaseProps;
 
@@ -19,7 +19,7 @@ export function CheckboxIndicator(props: CheckboxIndicatorProps) {
       {...props}
       className={classnames(props.className, styles.checkmarkInputIndicator)}
     >
-      {/* <Icon of="check-mark" className={styles.icon} /> */}
+      <div className={styles.icon}>✓</div>
     </CheckboxIndicatorBase>
   );
 }

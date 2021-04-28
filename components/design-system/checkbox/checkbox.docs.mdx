@@ -1,8 +1,11 @@
-import { CheckboxLabel } from './checkbox-label';
+import { Checkbox } from './checkbox';
+import { Theme } from '@learn-harmony/styles.theme-provider';
 
 A complete and styled Input Checkbox and text.
 
-<CheckboxLabel defaultChecked> Checkbox</CheckboxLabel>
+<Theme>
+  <Checkbox defaultChecked> Checkbox</Checkbox>
+</Theme>
 
 ## Indicator
 
@@ -23,9 +26,7 @@ import { CheckboxLabel, Input } from '...input.checkbox.label';
 function SelectAll() {
   // ...
   return (
-    <CheckboxLabel input={<Input aria-orientation="rtl" />}>
-      select all
-    </CheckboxLabel>
+    <Checkbox input={<Input aria-orientation="rtl" />}>select all</Checkbox>
   );
 }
 ```
@@ -33,13 +34,13 @@ function SelectAll() {
 Automatic forwarding will no longer occur, and you will have to supply props directly to the input:
 
 ```tsx
-<CheckboxLabel
+<Checkbox
   input={
     <Input aria-orientation="rtl" onChange={handleChange} checked={isChecked} />
   }
 >
   select all
-</CheckboxLabel>
+</Checkbox>
 ```
 
 ## Children

@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
-import { ThemeCompositions } from '@teambit/documenter.theme.theme-compositions';
+import { Theme } from '@learn-harmony/styles.theme-provider';
 import { Checkbox } from './checkbox';
 
 export function Checked() {
   return (
-    <ThemeCompositions>
+    <Theme>
       <Checkbox defaultChecked> Checkmarbox with a label</Checkbox>
-    </ThemeCompositions>
+    </Theme>
   );
 }
 
 export function Unchecked() {
   return (
-    <ThemeCompositions>
+    <Theme>
       <Checkbox> Check mark box with a label</Checkbox>
-    </ThemeCompositions>
+    </Theme>
   );
 }
 
@@ -22,7 +22,7 @@ export function ControlledCheckmarkBox() {
   const [state, setState] = useState(false);
 
   return (
-    <ThemeCompositions>
+    <Theme>
       <Checkbox
         onInputChanged={(e) => setState(e.target.checked)}
         checked={state}
@@ -31,34 +31,42 @@ export function ControlledCheckmarkBox() {
         Check mark box with a label
       </Checkbox>
       <div>→ {state ? 'checked' : 'unchecked'}</div>
-    </ThemeCompositions>
+    </Theme>
   );
 }
 
 export function DisabledCheckmarkBox() {
   return (
-    <ThemeCompositions>
+    <Theme>
       <Checkbox disabled>
         <span> disabled</span>
       </Checkbox>
-    </ThemeCompositions>
+    </Theme>
   );
 }
 
 export function DisabledAndChecked() {
   return (
-    <ThemeCompositions>
+    <Theme>
       <Checkbox disabled defaultChecked>
         <span> disabled and checked </span>
       </Checkbox>
-    </ThemeCompositions>
+    </Theme>
   );
 }
 
 export function Large() {
-  return <Checkbox style={{ fontSize: 24 }}> large</Checkbox>;
+  return (
+    <Theme>
+      <Checkbox style={{ fontSize: 24 }}> large</Checkbox>
+    </Theme>
+  );
 }
 
 export function Small() {
-  return <Checkbox style={{ fontSize: 12 }}> small</Checkbox>;
+  return (
+    <Theme>
+      <Checkbox style={{ fontSize: 12 }}> small</Checkbox>
+    </Theme>
+  );
 }

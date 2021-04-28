@@ -1,3 +1,3 @@
-import styles from './color-definition.module.scss';
+import styles from './primary-color-palette.module.scss';
 const { primaryPalette } = styles;
 export { primaryPalette };

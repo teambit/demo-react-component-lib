@@ -4,12 +4,12 @@ import classNames from 'classnames';
 import {
   headingFontSize,
   textFontSize,
-} from '@teambit/base-ui.theme.size-definition';
-import { shadowTheme } from '@teambit/base-ui.theme.shadow-definition';
-import { primaryPalette } from '@teambit/base-ui.theme.color-definition';
-import { brands } from '@teambit/base-ui.theme.brand-definition';
-import { headingMargins } from '@teambit/base-ui.theme.heading-margin-definition';
-import { bookFont } from '@teambit/base-ui.theme.fonts.book';
+} from '@learn-harmony/styles.sizes.size-definition';
+// import { shadowTheme } from '@teambit/base-ui.theme.shadow-definition';
+import { primaryPalette } from '@learn-harmony/styles.colors.primary-color-palette';
+// import { brands } from '@teambit/base-ui.theme.brand-definition';
+// import { headingMargins } from '@teambit/base-ui.theme.heading-margin-definition';
+import { bookFont } from '@learn-harmony/styles.fonts.book';
 import texts from './texts.module.scss';
 
 /**
@@ -38,10 +38,10 @@ export function Theme(props: React.HTMLAttributes<HTMLDivElement>) {
         headingFontSize,
         textFontSize,
         bookFont,
-        shadowTheme,
+        // shadowTheme,
         primaryPalette,
-        brands,
-        headingMargins,
+        // brands,
+        // headingMargins,
         texts.defaults,
         props.className
       )}
