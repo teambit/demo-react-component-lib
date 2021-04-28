@@ -1,0 +1,10 @@
+
+.menu {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 4px 0;
+    overflow: hidden;
+    top: calc(100% + 8px);
+    max-width: inherit;
+    background-color: #ffffff;
+}

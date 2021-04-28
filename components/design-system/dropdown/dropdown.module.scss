@@ -1,0 +1,33 @@
+.defaultPlaceholder {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 300ms, border-color 300ms ease-in-out;
+    &:hover {
+        background-color: var(--bg-dent, #f6f6f6);
+    }
+    [data-open='true'] & {
+        background-color: var(--muted-color, #ECEAFF);
+        border-color: var(--muted-color, #ECEAFF);
+    }
+}
+
+.disabled {
+    cursor: not-allowed;
+    color: var(--separator-color, #BABEC9);
+    filter: grayscale(1);
+    background-color: var(--bg-topping, #ffffff);
+    &:hover {
+        background-color: var(--bg-topping, #ffffff);
+    }
+    > * {
+        cursor: not-allowed;
+        // this is to override any cursor the title has when disabled
+        &:hover {
+            cursor: not-allowed; 
+        }
+    }
+}

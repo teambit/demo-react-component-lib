@@ -1,0 +1,37 @@
+---
+labels: ['react', 'ui', 'dropdown']
+description: A designed dropdown to present a clickable list of items
+---
+
+import { hoverable } from '@teambit/design.ui.hoverable';
+import {Dropdown} from './dropdown';
+import {Item} from './item';
+import {dropdownList} from './dropdown.mock';
+
+
+### Usage example for the Dropdown
+```ts live
+ <Dropdown placeholder={false} placeholderTitle={<Item image='https://static.bit.dev/bit-logo.svg' name='teambit'  />} >
+    {dropdownList.map((listItem, index) => (
+    <Item
+        key={index}
+        className={hoverable}
+        image={listItem.image}
+        name={listItem.name}
+    />
+    ))}
+</Dropdown>
+
+```
+
+### Usage example for the Item
+
+The dropdown also provides an `Item` component, which is separetaly avilable for usage:
+
+```ts live 
+<Item
+    className={hoverable}
+    image='https://static.bit.dev/bit-logo.svg'
+    name='teambit'
+/>
+```

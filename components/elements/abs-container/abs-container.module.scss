@@ -1,0 +1,12 @@
+.container {
+  position: relative;
+}
+
+.containee {
+  position: absolute;
+
+  visibility: hidden;
+  [data-open='true'] & {
+    visibility: visible;
+  }
+}

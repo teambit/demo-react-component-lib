@@ -1,8 +1,13 @@
 importers:
   .:
     dependencies:
+      '@teambit/base-ui.hook.use-click-outside': registry.npmjs.org/@teambit/base-ui.hook.use-click-outside/0.5.9
+      '@teambit/base-ui.surfaces.abs-container': registry.npmjs.org/@teambit/base-ui.surfaces.abs-container/0.5.9
       classnames: registry.npmjs.org/classnames/2.2.6
-      core-js: registry.npmjs.org/core-js/3.11.0
+      core-js: registry.npmjs.org/core-js/3.11.1
+      react-create-ref: registry.npmjs.org/react-create-ref/1.0.1
+      react-tooltip: registry.npmjs.org/react-tooltip/4.2.18
+      uuid: registry.npmjs.org/uuid/8.3.2
     devDependencies:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.18
       '@types/jest': registry.npmjs.org/@types/jest/26.0.23
@@ -10,11 +15,20 @@ importers:
       '@types/react': registry.npmjs.org/@types/react/16.14.5
     specifiers:
       '@babel/runtime': 7.12.18
+      '@teambit/base-ui.hook.use-click-outside': 0.5.9
+      '@teambit/base-ui.surfaces.abs-container': 0.5.9
       '@types/jest': ^26.0.23
       '@types/node': 12.20.4
       '@types/react': ^16.14.5
       classnames: 2.2.6
-      core-js: ^3.11.0
+      core-js: ^3.11.1
+      react-create-ref: 1.0.1
+      react-tooltip: 4.2.18
+      uuid: 8.3.2
+  components/design-system/checkbox:
+    specifiers: {}
+  components/elements/abs-container:
+    specifiers: {}
   components/elements/check-box/hidden:
     specifiers: {}
   components/elements/check-box/indicator:
@@ -24,6 +38,28 @@ importers:
   components/elements/checkbox/hidden:
     specifiers: {}
   components/elements/checkbox/indicator:
+    specifiers: {}
+  components/elements/checkbox/label:
+    specifiers: {}
+  components/elements/drawer:
+    specifiers: {}
+  components/elements/ellipsis:
+    specifiers: {}
+  components/styles/colors/colors:
+    specifiers: {}
+  components/styles/colors/dark-color-palette:
+    specifiers: {}
+  components/styles/colors/primary-color-palette:
+    specifiers: {}
+  components/styles/fonts/book:
+    specifiers: {}
+  components/styles/fonts/roboto:
+    specifiers: {}
+  components/styles/sizes/size-definition:
+    specifiers: {}
+  components/styles/sizes/sizes:
+    specifiers: {}
+  components/styles/theme-provider:
     specifiers: {}
 lockfileVersion: 5.2
 packages:
@@ -53,6 +89,31 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/@jest/types/-/types-26.6.2.tgz
     version: 26.6.2
+  registry.npmjs.org/@teambit/base-ui.hook.use-click-outside/0.5.9:
+    dev: false
+    name: '@teambit/base-ui.hook.use-click-outside'
+    peerDependencies:
+      react: ^16.13.1
+      react-dom: ^16.13.1
+    resolution:
+      integrity: sha512-nYIM33hTw71b9C0gk7fp9qSL1ZfK1bqB56uMNS/BU+2uOhUlZEyuY7PXgYuEate7Mzp07G+24i4HI7tL1wtdHg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@teambit/base-ui.hook.use-click-outside/-/base-ui.hook.use-click-outside-0.5.9.tgz
+    version: 0.5.9
+  registry.npmjs.org/@teambit/base-ui.surfaces.abs-container/0.5.9:
+    dependencies:
+      classnames: registry.npmjs.org/classnames/2.2.6
+      react-create-ref: registry.npmjs.org/react-create-ref/1.0.1
+    dev: false
+    name: '@teambit/base-ui.surfaces.abs-container'
+    peerDependencies:
+      react: ^16.13.1
+      react-dom: ^16.13.1
+    resolution:
+      integrity: sha512-Uq+B8YdhORTc4u2oRORhJnvRzvwKzDyELp2dwFB51uQLLVJ0NLl+Mbs2AUMYEvq9lgz1RBN/JgLWNG0zX6HeXw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@teambit/base-ui.surfaces.abs-container/-/base-ui.surfaces.abs-container-0.5.9.tgz
+    version: 0.5.9
   registry.npmjs.org/@types/istanbul-lib-coverage/2.0.3:
     dev: true
     name: '@types/istanbul-lib-coverage'
@@ -209,15 +270,15 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz
     version: 1.1.4
-  registry.npmjs.org/core-js/3.11.0:
+  registry.npmjs.org/core-js/3.11.1:
     dev: false
     name: core-js
     requiresBuild: true
     resolution:
-      integrity: sha512-bd79DPpx+1Ilh9+30aT5O1sgpQd4Ttg8oqkqi51ZzhedMM1omD2e6IOF48Z/DzDCZ2svp49tN/3vneTK6ZBkXw==
+      integrity: sha512-k93Isqg7e4txZWMGNYwevZL9MiogLk8pd1PtwrmFmi8IBq4GXqUaVW/a33Llt6amSI36uSjd0GWwc9pTT9ALlQ==
       registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/core-js/-/core-js-3.11.0.tgz
-    version: 3.11.0
+      tarball: https://registry.npmjs.org/core-js/-/core-js-3.11.1.tgz
+    version: 3.11.1
   registry.npmjs.org/csstype/3.0.8:
     dev: true
     name: csstype
@@ -271,6 +332,35 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/jest-get-type/-/jest-get-type-26.3.0.tgz
     version: 26.3.0
+  registry.npmjs.org/js-tokens/4.0.0:
+    dev: false
+    name: js-tokens
+    resolution:
+      integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz
+    version: 4.0.0
+  registry.npmjs.org/loose-envify/1.4.0:
+    dependencies:
+      js-tokens: registry.npmjs.org/js-tokens/4.0.0
+    dev: false
+    hasBin: true
+    name: loose-envify
+    resolution:
+      integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz
+    version: 1.4.0
+  registry.npmjs.org/object-assign/4.1.1:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    name: object-assign
+    resolution:
+      integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz
+    version: 4.1.1
   registry.npmjs.org/pretty-format/26.6.2:
     dependencies:
       '@jest/types': registry.npmjs.org/@jest/types/26.6.2
@@ -286,6 +376,36 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/pretty-format/-/pretty-format-26.6.2.tgz
     version: 26.6.2
+  registry.npmjs.org/prop-types/15.7.2:
+    dependencies:
+      loose-envify: registry.npmjs.org/loose-envify/1.4.0
+      object-assign: registry.npmjs.org/object-assign/4.1.1
+      react-is: registry.npmjs.org/react-is/16.13.1
+    dev: false
+    name: prop-types
+    resolution:
+      integrity: sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/prop-types/-/prop-types-15.7.2.tgz
+    version: 15.7.2
+  registry.npmjs.org/react-create-ref/1.0.1:
+    dev: false
+    name: react-create-ref
+    peerDependencies:
+      react: '*'
+    resolution:
+      integrity: sha512-pryn9uefKa5HPfmgf1Gl93+hwN2rqXeipLSdnq6Q9M7Pd00sx617GyOtluqVoQ0XlvvYJ8Bw/uTorXvH+fgUGQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/react-create-ref/-/react-create-ref-1.0.1.tgz
+    version: 1.0.1
+  registry.npmjs.org/react-is/16.13.1:
+    dev: false
+    name: react-is
+    resolution:
+      integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz
+    version: 16.13.1
   registry.npmjs.org/react-is/17.0.2:
     dev: true
     name: react-is
@@ -294,6 +414,22 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz
     version: 17.0.2
+  registry.npmjs.org/react-tooltip/4.2.18:
+    dependencies:
+      prop-types: registry.npmjs.org/prop-types/15.7.2
+      uuid: registry.npmjs.org/uuid/7.0.3
+    dev: false
+    engines:
+      npm: '>=6.13'
+    name: react-tooltip
+    peerDependencies:
+      react: '>=16.0.0'
+      react-dom: '>=16.0.0'
+    resolution:
+      integrity: sha512-MBdWuH925GL2ai5TWJelVJD9Opfk+3cLw0SP0rXR7s2RcNb7FefaNmljFndqYo8ghVcIEj5yM7aqV5Ith2bnqg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/react-tooltip/-/react-tooltip-4.2.18.tgz
+    version: 4.2.18
   registry.npmjs.org/regenerator-runtime/0.13.7:
     dev: true
     name: regenerator-runtime
@@ -314,3 +450,21 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz
     version: 7.2.0
+  registry.npmjs.org/uuid/7.0.3:
+    dev: false
+    hasBin: true
+    name: uuid
+    resolution:
+      integrity: sha512-DPSke0pXhTZgoF/d+WSt2QaKMCFSfx7QegxEWT+JOuHF5aWrKEn0G+ztjuJg/gG8/ItK+rbPCD/yNv8yyih6Cg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/uuid/-/uuid-7.0.3.tgz
+    version: 7.0.3
+  registry.npmjs.org/uuid/8.3.2:
+    dev: false
+    hasBin: true
+    name: uuid
+    resolution:
+      integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz
+    version: 8.3.2
