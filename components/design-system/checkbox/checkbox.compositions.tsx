@@ -1,11 +1,26 @@
-import React, { useState } from 'react';
+import React, { useState, CSSProperties } from 'react';
 import { Theme } from '@learn-harmony/styles.theme-provider';
+import { darkMode } from '@learn-harmony/styles.colors.dark-color-palette';
 import { Checkbox } from './checkbox';
 
 export function Checked() {
   return (
     <Theme>
-      <Checkbox defaultChecked> Checkmarbox with a label</Checkbox>
+      <Checkbox defaultChecked> A label</Checkbox>
+    </Theme>
+  );
+}
+
+export function CheckedDark() {
+  const style: CSSProperties = {
+    backgroundColor: 'var(--bg-bedrock)',
+    padding: 25,
+  };
+  return (
+    <Theme className={darkMode}>
+      <div style={style}>
+        <Checkbox defaultChecked> A label</Checkbox>
+      </div>
     </Theme>
   );
 }
