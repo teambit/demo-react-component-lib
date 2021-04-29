@@ -13,6 +13,12 @@
         "mainFile": "index.ts",
         "rootDir": "components/design-system/avatar"
     },
+    "button": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.tsx",
+        "rootDir": "components/design-system/button"
+    },
     "characteristics/hoverable": {
         "scope": "",
         "version": "",
