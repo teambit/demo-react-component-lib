@@ -9,7 +9,7 @@ The design system is structured out of three scopes:
 
 * [Styles](https://bit.dev/learn-harmony/styles): A collection of components that form one or more themes. That includes, fonts, color palettes, sizes, and more.
 
-* [Design System](https://bit.dev/learn-harmony/design-system): A collection of opinionated components unified by a single, coherent, design language.
+* [Design System](https://bit.dev/learn-harmony/design-system): A collection of opinionated components, composed almost entirely out of 'Styles' and 'Elements' components. The 'Design System' components form a single uniform design language.
 
 ---
 
