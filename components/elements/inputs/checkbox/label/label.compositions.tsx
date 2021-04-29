@@ -1,4 +1,4 @@
-import { HiddenCheckbox } from '@learn-harmony/elements.checkbox.hidden';
+import { HiddenCheckbox } from '@learn-harmony/elements.inputs.checkbox.hidden';
 import React, { useState } from 'react';
 import { CheckboxLabel } from './label';
 

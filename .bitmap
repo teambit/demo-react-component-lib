@@ -25,24 +25,6 @@
         "mainFile": "index.ts",
         "rootDir": "components/design-system/checkbox"
     },
-    "checkbox/hidden": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "components/elements/checkbox/hidden"
-    },
-    "checkbox/indicator": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "components/elements/checkbox/indicator"
-    },
-    "checkbox/label": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "components/elements/checkbox/label"
-    },
     "colors-by-letter": {
         "scope": "",
         "version": "",
@@ -96,6 +78,42 @@
         "version": "",
         "mainFile": "index.ts",
         "rootDir": "components/styles/fonts/roboto"
+    },
+    "hooks/use-click-outside": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "components/elements/hooks/use-click-outside"
+    },
+    "inputs/button": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "components/elements/inputs/button"
+    },
+    "inputs/checkbox/hidden": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "components/elements/inputs/checkbox/hidden"
+    },
+    "inputs/checkbox/indicator": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "components/elements/inputs/checkbox/indicator"
+    },
+    "inputs/checkbox/label": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "components/elements/inputs/checkbox/label"
+    },
+    "loaders/dots-loader": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "components/elements/loaders/dots-loader"
     },
     "sizes/size-definition": {
         "scope": "",
