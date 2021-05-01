@@ -1,0 +1,23 @@
+---
+description: CSS colors and variables for the app.
+---
+
+- Sets default text color
+- `--base-color` - default color (cta color, etc)
+- `--base-highlight` - default color for highlight (cta hover, etc)
+- `--border-color`
+- `--bg-color` - background color
+- `--separator-color`
+
+##### Backgrounds:
+
+As elements stacks closer to the user, its color changes. their color change.  
+ This is especially noticeable in dark mode (higher elements are lighter).
+
+We created 4 levels of possible backgrounds, from bottom to top:
+
+- `--bg-bedrock` - i.e. <body/> background
+- `--bg-base` - e.g. navigation elements and wireframes
+- `--bg-layer` - workspaces, e.g. card. (may be sub-divided in the future)
+- `--bg-crust` - overlay ui, e.g. tooltip.
+- `--bg-topping` - "bumps" on top level surfaces e.g. button, input, etc

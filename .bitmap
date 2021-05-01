@@ -157,5 +157,5 @@
         "mainFile": "index.ts",
         "rootDir": "components/elements/utility-functions/get-initials"
     },
-    "version": "1.0.64"
+    "version": "1.0.69"
 }

@@ -3,7 +3,7 @@ import styles from './compositions/compositions.module.scss';
 
 export const Purple = () => {
   return (
-    <div>
+    <div data-testid="purple">
       <div data-sample="true" className={styles.p70} />
       <div data-sample="true" className={styles.p60} />
       <div data-sample="true" className={styles.p50} />
@@ -16,7 +16,7 @@ export const Purple = () => {
 
 export const Blue = () => {
   return (
-    <div>
+    <div data-testid="blue">
       <div data-sample="true" className={styles.b70} />
       <div data-sample="true" className={styles.b60} />
       <div data-sample="true" className={styles.b50} />
@@ -29,7 +29,7 @@ export const Blue = () => {
 
 export const Pink = () => {
   return (
-    <div>
+    <div data-testid="pink">
       <div data-sample="true" className={styles.pink70} />
       <div data-sample="true" className={styles.pink60} />
       <div data-sample="true" className={styles.pink50} />
@@ -42,7 +42,7 @@ export const Pink = () => {
 
 export const Green = () => {
   return (
-    <div>
+    <div data-testid="green">
       <div data-sample="true" className={styles.g70} />
       <div data-sample="true" className={styles.g60} />
       <div data-sample="true" className={styles.g50} />
@@ -55,7 +55,7 @@ export const Green = () => {
 
 export const Yellow = () => {
   return (
-    <div>
+    <div data-testid="yellow">
       <div data-sample="true" className={styles.y70} />
       <div data-sample="true" className={styles.y60} />
       <div data-sample="true" className={styles.y50} />
@@ -68,7 +68,7 @@ export const Yellow = () => {
 
 export const Red = () => {
   return (
-    <div>
+    <div data-testid="red">
       <div data-sample="true" className={styles.r70} />
       <div data-sample="true" className={styles.r60} />
       <div data-sample="true" className={styles.r50} />
@@ -81,7 +81,7 @@ export const Red = () => {
 
 export const Dark = () => {
   return (
-    <div>
+    <div data-testid="dark">
       <div data-sample="true" className={styles.d70} />
       <div data-sample="true" className={styles.d60} />
       <div data-sample="true" className={styles.d50} />
@@ -94,7 +94,7 @@ export const Dark = () => {
 
 export const Shadow = () => {
   return (
-    <div>
+    <div data-testid="shadow">
       <div data-sample="true" className={styles.s50} />
       <div data-sample="true" className={styles.s40} />
       <div data-sample="true" className={styles.s30} />

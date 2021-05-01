@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from './dark-color-palette.module.scss';
+import styles from './primary-color-palette.module.scss';
 
 export const Samples = () => {
   return (
-    <div data-testid="samples" className={styles.darkMod}>
+    <div data-testid="samples" className={styles.primaryPalette}>
       <p style={{ color: 'var(--text-color)' }}>--text-color</p>
       <p style={{ color: 'var(--text-highlight)' }}>--text-highlight</p>
       <p style={{ color: 'var(--text-muted)' }}>--text-muted</p>
