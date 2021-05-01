@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './compositions/using-colors.module.scss';
+import styles from './compositions/compositions.module.scss';
 
 export const Purple = () => {
   return (
