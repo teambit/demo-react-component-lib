@@ -2,158 +2,158 @@
 
 {
     "abs-container": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.elements",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "components/elements/abs-container"
     },
     "avatar": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.design-system",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "components/design-system/avatar"
     },
     "button": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.design-system",
+        "version": "0.0.1",
         "mainFile": "index.tsx",
         "rootDir": "components/design-system/button"
     },
     "characteristics/hoverable": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.styles",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "components/styles/characteristics/hoverable"
     },
     "checkbox": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.design-system",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "components/design-system/checkbox"
     },
     "colors-by-letter": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.design-system",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "components/design-system/colors-by-letter"
     },
     "colors/colors": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.styles",
+        "version": "0.0.1",
         "mainFile": "colors.module.scss",
         "rootDir": "components/styles/colors/colors"
     },
     "colors/dark-color-palette": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.styles",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "components/styles/colors/dark-color-palette"
     },
     "colors/primary-color-palette": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.styles",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "components/styles/colors/primary-color-palette"
     },
     "drawer": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.elements",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "components/elements/drawer"
     },
     "dropdown": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.design-system",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "components/design-system/dropdown"
     },
     "ellipsis": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.elements",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "components/elements/ellipsis"
     },
     "fonts/book": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.styles",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "components/styles/fonts/book"
     },
     "fonts/roboto": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.styles",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "components/styles/fonts/roboto"
     },
     "hooks/use-click-outside": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.elements",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "components/elements/hooks/use-click-outside"
     },
     "inputs/button": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.elements",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "components/elements/inputs/button"
     },
     "inputs/checkbox/hidden": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.elements",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "components/elements/inputs/checkbox/hidden"
     },
     "inputs/checkbox/indicator": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.elements",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "components/elements/inputs/checkbox/indicator"
     },
     "inputs/checkbox/label": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.elements",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "components/elements/inputs/checkbox/label"
     },
     "loaders/dots-loader": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.elements",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "components/elements/loaders/dots-loader"
     },
     "sizes/size-definition": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.styles",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "components/styles/sizes/size-definition"
     },
     "sizes/sizes": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.styles",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "components/styles/sizes/sizes"
     },
     "text-input": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.design-system",
+        "version": "0.0.1",
         "mainFile": "input/index.ts",
         "rootDir": "components/design-system/text-input"
     },
     "theme-provider": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.styles",
+        "version": "0.0.1",
         "mainFile": "index.tsx",
         "rootDir": "components/styles/theme-provider"
     },
     "transitions/menu-transition": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.styles",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "components/styles/transitions/menu-transition"
     },
     "utility-functions/get-initials": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-harmony.elements",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "components/elements/utility-functions/get-initials"
     },
