@@ -1,6 +1,5 @@
 import React from 'react';
 import classNames from 'classnames';
-
 import {
   headingFontSize,
   textFontSize,
@@ -17,10 +16,7 @@ export function Theme(props: React.HTMLAttributes<HTMLDivElement>) {
         headingFontSize,
         textFontSize,
         bookFont,
-        // shadowTheme,
         primaryPalette,
-        // brands,
-        // headingMargins,
         texts.defaults,
         props.className
       )}

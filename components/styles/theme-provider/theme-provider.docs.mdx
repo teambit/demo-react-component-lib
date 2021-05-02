@@ -2,7 +2,9 @@
 description: Applies shared styles to all child components.
 ---
 
-import { Theme } from './theme-provider.tsx';
+import { Theme } from './theme-provider';
+import { Checkbox } from '@learn-harmony/design-system.checkbox';
+import { darkMode } from '@learn-harmony/styles.colors.dark-color-palette';
 
 Applied styling includes:
 
@@ -11,3 +13,42 @@ Applied styling includes:
 - Brand font
 - Shadows
 - Specific brand related styles
+
+#### Using the theme provider
+
+```jsx live
+// import { Theme } from './theme-provider';
+// import { Checkbox } from '@learn-harmony/design-system.checkbox';
+
+() => {
+  return (
+    <div>
+      <Theme>
+        <Checkbox defaultChecked> A label</Checkbox>
+      </Theme>
+    </div>
+  );
+};
+```
+
+#### Using the theme provider in 'dark mode'
+
+```jsx live
+// import { Theme } from './theme-provider';
+// import { Checkbox } from '@learn-harmony/design-system.checkbox';
+// import { darkMode } from '@learn-harmony/styles.colors.dark-color-palette';
+
+() => {
+  const style = {
+    backgroundColor: 'var(--bg-bedrock)',
+    padding: 25,
+  };
+  return (
+    <Theme className={darkMode}>
+      <div style={style}>
+        <Checkbox defaultChecked> A label</Checkbox>
+      </div>
+    </Theme>
+  );
+};
+```

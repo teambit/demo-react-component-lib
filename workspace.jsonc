@@ -43,7 +43,10 @@
         "sinon": "10.0.0",
         "uuid": "8.3.2"
       },
-      "peerDependencies": {}
+      "peerDependencies": {
+        "react": "16.13.1",
+        "react-dom": "16.13.1"
+      }
     },
     "packageManagerArgs": [],
     "devFilePatterns": ["**/*.spec.ts"],
