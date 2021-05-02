@@ -1,5 +1,6 @@
 import React from 'react';
 import { Theme } from '@learn-harmony/styles.theme-provider';
+import { darkMode } from '@learn-harmony/styles.colors.dark-color-palette';
 import { Button } from './button';
 
 export const CallToActionButton = ({ ...rest }) => {
@@ -15,6 +16,16 @@ export const CallToActionButton = ({ ...rest }) => {
 export const MainButton = () => {
   return (
     <Theme>
+      <Button importance="ghost" style={{ width: 120 }}>
+        Update
+      </Button>
+    </Theme>
+  );
+};
+
+export const MainButtonDarkTheme = () => {
+  return (
+    <Theme className={darkMode}>
       <Button importance="ghost" style={{ width: 120 }}>
         Update
       </Button>

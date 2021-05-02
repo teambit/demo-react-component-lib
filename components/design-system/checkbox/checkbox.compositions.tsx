@@ -5,9 +5,11 @@ import { Checkbox } from './checkbox';
 
 export function Checked() {
   return (
-    <Theme>
-      <Checkbox defaultChecked> A label</Checkbox>
-    </Theme>
+    <div data-testid="checked">
+      <Theme>
+        <Checkbox defaultChecked> A label</Checkbox>
+      </Theme>
+    </div>
   );
 }
 

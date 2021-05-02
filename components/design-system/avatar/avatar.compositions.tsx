@@ -25,49 +25,65 @@ const accounts = {
 };
 
 export const DefaultAvatarExample = () => (
-  <Theme>
-    <DefaultAvatar size={32} account={accounts.defAccount} />
-  </Theme>
+  <div data-testid="default">
+    <Theme>
+      <DefaultAvatar size={32} account={accounts.defAccount} />
+    </Theme>
+  </div>
 );
 
 export const OrganizationAvatarExample = () => (
-  <Theme>
-    <OrgAvatar size={32} account={accounts.orgAccount} />
-  </Theme>
+  <div data-testid="org">
+    <Theme>
+      <OrgAvatar size={32} account={accounts.orgAccount} />
+    </Theme>
+  </div>
 );
 
 export const UserAvatarExample = () => (
-  <Theme>
-    <UserAvatar size={32} account={accounts.userAccount} />
-  </Theme>
+  <div data-testid="user">
+    <Theme>
+      <UserAvatar size={32} account={accounts.userAccount} />
+    </Theme>
+  </div>
 );
 
 export const LargeAvatarExample = () => (
-  <Theme>
-    <OrgAvatar size={100} account={accounts.orgAccount} />
-  </Theme>
+  <div data-testid="large">
+    <Theme>
+      <OrgAvatar size={100} account={accounts.orgAccount} />
+    </Theme>
+  </div>
 );
 
 export const NoSetIconOrgAvatar = () => (
-  <Theme>
-    <OrgAvatar size={32} account={accounts.noPicOrgAccount} />
-  </Theme>
+  <div data-testid="org-no-set-icon">
+    <Theme>
+      <OrgAvatar size={32} account={accounts.noPicOrgAccount} />
+    </Theme>
+  </div>
 );
 
 export const NoSetIconUserAvatar = () => (
-  <Theme>
-    <UserAvatar size={32} account={accounts.noPicUserAccount} />
-  </Theme>
+  <div data-testid="user-no-set-icon">
+    <Theme>
+      <UserAvatar size={32} account={accounts.noPicUserAccount} />
+    </Theme>
+  </div>
 );
 
 export const NoUserNameAvatarExample = () => (
-  <Theme>
-    <UserAvatar size={32} account={accounts.noNameAccount} />
-  </Theme>
+  <div data-testid="no-user-name">
+    <Theme>
+      <UserAvatar size={32} account={accounts.noNameAccount} />
+    </Theme>
+  </div>
 );
 
 export const UserAvatarWithTooltipExample = () => (
-  <Theme>
-    <UserAvatar size={32} account={accounts.userAccount} showTooltip />
-  </Theme>
+  <div data-testid="with-tooltup">
+    <Theme>
+      <UserAvatar size={32} account={accounts.userAccount} showTooltip />
+    </Theme>
+  </div>
 );

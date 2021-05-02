@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://harmony-docs.bit.dev/workspace/configurations
- **/{
+ **/ {
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -46,25 +46,16 @@
       "peerDependencies": {}
     },
     "packageManagerArgs": [],
-    "devFilePatterns": [
-      "**/*.spec.ts"
-    ],
+    "devFilePatterns": ["**/*.spec.ts"],
     "strictPeerDependencies": true
   },
-  /**
-   * workspace variants allow to set different subsets of configuration for components in your workspace.
-   * this is extremely useful for upgrading, aligning and building components with a
-   * new set of dependencies.
-   **/
+
   "teambit.workspace/variants": {
-    /**
-     * "*" is a special rule which applied on all components in the workspace.
-     **/
-    "*": {
-      /**
-       * uncomment to apply the react environment on all components.
-       **/
+    "(design-system/*},{elements/*},{styles/theme-provider}": {
       "teambit.react/react": {}
+    },
+    "{characteristics/*},{colors/*},{fonts/*},{sizes/*},{transitions/*}": {
+      "teambit.harmony/node": {}
     },
     "components/elements/": {
       "defaultScope": "learn-harmony.elements"

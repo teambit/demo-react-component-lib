@@ -1,5 +1,6 @@
 import React from 'react';
 import { Theme } from '@learn-harmony/styles.theme-provider';
+import { darkMode } from '@learn-harmony/styles.colors.dark-color-palette';
 import { Input, TextArea } from './input';
 
 export const InputExample = () => (
@@ -29,12 +30,3 @@ export const TextAreaWithError = () => (
     <TextArea error={true} data-testid="test-textarea" />
   </Theme>
 );
-
-const compositions = [
-  InputExample,
-  InputWithError,
-  TextAreaExample,
-  TextAreaWithError,
-];
-// @ts-ignore
-compositions.map((comp) => (comp.canvas = { height: 90 }));

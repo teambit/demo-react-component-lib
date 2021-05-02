@@ -1,0 +1,19 @@
+---
+description: Define '@font-face rules for font-family Circular Pro Book, including bold and italic. Provides a handy class name to add to root component.
+---
+
+import { bookFont } from './index.ts';
+
+#### Live playground
+
+```jsx live
+// import { bookFont } from '@bit/bit.base-ui.theme.fonts.book';
+() => {
+  return (
+    <body className={bookFont}>
+      <div>I'm using font!</div>
+      <div style={{ fontWeight: 'bold' }}>I am BOLD</div>
+    </body>
+  );
+};
+```

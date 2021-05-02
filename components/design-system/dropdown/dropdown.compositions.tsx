@@ -14,21 +14,23 @@ const activeOption = {
 };
 export function DropdownExample() {
   return (
-    <Dropdown
-      menuClass={menuTransition}
-      placeholder={false}
-      placeholderTitle={<Item {...activeOption} />}
-    >
-      {dropdownList.map((listItem, index) => (
-        <Item
-          key={index}
-          image={listItem.image}
-          name={listItem.name}
-          className={hoverable}
-          isActive={activeOption.name === listItem.name}
-        />
-      ))}
-    </Dropdown>
+    <div data-testid="dropdown">
+      <Dropdown
+        menuClass={menuTransition}
+        placeholder={false}
+        placeholderTitle={<Item {...activeOption} />}
+      >
+        {dropdownList.map((listItem, index) => (
+          <Item
+            key={index}
+            image={listItem.image}
+            name={listItem.name}
+            className={hoverable}
+            isActive={activeOption.name === listItem.name}
+          />
+        ))}
+      </Dropdown>
+    </div>
   );
 }
 
