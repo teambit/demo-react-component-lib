@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://harmony-docs.bit.dev/workspace/configurations
- **/ {
+ **/{
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -38,6 +38,7 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
+        "@teambit/base-ui.theme.colors": "0.6.10",
         "@testing-library/react": "11.2.6",
         "react-tooltip": "4.2.18",
         "sinon": "10.0.0",
@@ -49,10 +50,11 @@
       }
     },
     "packageManagerArgs": [],
-    "devFilePatterns": ["**/*.spec.ts"],
+    "devFilePatterns": [
+      "**/*.spec.ts"
+    ],
     "strictPeerDependencies": true
   },
-
   "teambit.workspace/variants": {
     "(design-system/*},{elements/*},{styles/theme-provider}": {
       "teambit.react/react": {}
