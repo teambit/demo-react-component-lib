@@ -3,7 +3,7 @@ importers:
     dependencies:
       '@teambit/base-ui.hook.use-click-outside': registry.npmjs.org/@teambit/base-ui.hook.use-click-outside/0.5.9_react-dom@16.13.1+react@16.13.1
       '@teambit/base-ui.surfaces.abs-container': registry.npmjs.org/@teambit/base-ui.surfaces.abs-container/0.5.9_react-dom@16.13.1+react@16.13.1
-      '@teambit/base-ui.theme.colors': registry.npmjs.org/@teambit/base-ui.theme.colors/0.6.7_react-dom@16.13.1+react@16.13.1
+      '@teambit/base-ui.theme.colors': registry.npmjs.org/@teambit/base-ui.theme.colors/0.6.10_react-dom@16.13.1+react@16.13.1
       '@teambit/url.add-avatar-query-params': registry.npmjs.org/@teambit/url.add-avatar-query-params/0.0.300_react-dom@16.13.1+react@16.13.1
       classnames: registry.npmjs.org/classnames/2.2.6
       core-js: registry.npmjs.org/core-js/3.11.1
@@ -25,7 +25,7 @@ importers:
       '@babel/runtime': 7.12.18
       '@teambit/base-ui.hook.use-click-outside': 0.5.9
       '@teambit/base-ui.surfaces.abs-container': 0.5.9
-      '@teambit/base-ui.theme.colors': 0.6.7
+      '@teambit/base-ui.theme.colors': 0.6.10
       '@teambit/base-ui.theme.theme-provider': 0.6.7
       '@teambit/url.add-avatar-query-params': 0.0.300
       '@testing-library/react': 11.2.6
@@ -278,10 +278,27 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/@teambit/base-ui.theme.color-definition/-/base-ui.theme.color-definition-0.6.7.tgz
     version: 0.6.7
+  registry.npmjs.org/@teambit/base-ui.theme.colors/0.6.10_react-dom@16.13.1+react@16.13.1:
+    dependencies:
+      core-js: registry.npmjs.org/core-js/3.11.1
+      react: registry.npmjs.org/react/16.13.1
+      react-dom: registry.npmjs.org/react-dom/16.13.1_react@16.13.1
+    dev: false
+    id: registry.npmjs.org/@teambit/base-ui.theme.colors/0.6.10
+    name: '@teambit/base-ui.theme.colors'
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0
+      react-dom: ^16.8.0 || ^17.0.0
+    resolution:
+      integrity: sha512-1z88r2UJO4WRbN1h4Y+Hb9cAnlwphWxFg/DeaRTxfFQ3S2/AcyHo/Dy2Dc5wguUU6JAmbRuDj1kys8b2vSg3Tw==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/@teambit/base-ui.theme.colors/-/base-ui.theme.colors-0.6.10.tgz
+    version: 0.6.10
   registry.npmjs.org/@teambit/base-ui.theme.colors/0.6.7_react-dom@16.13.1+react@16.13.1:
     dependencies:
       react: registry.npmjs.org/react/16.13.1
       react-dom: registry.npmjs.org/react-dom/16.13.1_react@16.13.1
+    dev: true
     id: registry.npmjs.org/@teambit/base-ui.theme.colors/0.6.7
     name: '@teambit/base-ui.theme.colors'
     peerDependencies:
