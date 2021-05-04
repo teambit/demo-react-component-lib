@@ -9,49 +9,49 @@
     },
     "avatar": {
         "scope": "learn-harmony.design-system",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "components/design-system/avatar"
     },
     "button": {
         "scope": "learn-harmony.design-system",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.tsx",
         "rootDir": "components/design-system/button"
     },
     "characteristics/hoverable": {
         "scope": "learn-harmony.styles",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "components/styles/characteristics/hoverable"
     },
     "checkbox": {
         "scope": "learn-harmony.design-system",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "components/design-system/checkbox"
     },
     "colors-by-letter": {
         "scope": "learn-harmony.design-system",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "components/design-system/colors-by-letter"
     },
     "colors/colors": {
         "scope": "learn-harmony.styles",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "colors.module.scss",
         "rootDir": "components/styles/colors/colors"
     },
     "colors/dark-color-palette": {
         "scope": "learn-harmony.styles",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "components/styles/colors/dark-color-palette"
     },
     "colors/primary-color-palette": {
         "scope": "learn-harmony.styles",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "components/styles/colors/primary-color-palette"
     },
@@ -63,7 +63,7 @@
     },
     "dropdown": {
         "scope": "learn-harmony.design-system",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "components/design-system/dropdown"
     },
@@ -75,13 +75,13 @@
     },
     "fonts/book": {
         "scope": "learn-harmony.styles",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "components/styles/fonts/book"
     },
     "fonts/roboto": {
         "scope": "learn-harmony.styles",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "components/styles/fonts/roboto"
     },
@@ -123,31 +123,31 @@
     },
     "sizes/size-definition": {
         "scope": "learn-harmony.styles",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "components/styles/sizes/size-definition"
     },
     "sizes/sizes": {
         "scope": "learn-harmony.styles",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "components/styles/sizes/sizes"
     },
     "text-input": {
         "scope": "learn-harmony.design-system",
         "version": "0.0.1",
-        "mainFile": "input/index.ts",
+        "mainFile": "index.ts",
         "rootDir": "components/design-system/text-input"
     },
     "theme-provider": {
         "scope": "learn-harmony.styles",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.tsx",
         "rootDir": "components/styles/theme-provider"
     },
     "transitions/menu-transition": {
         "scope": "learn-harmony.styles",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "components/styles/transitions/menu-transition"
     },
@@ -157,5 +157,5 @@
         "mainFile": "index.ts",
         "rootDir": "components/elements/utility-functions/get-initials"
     },
-    "version": "1.0.69"
+    "version": "1.0.70"
 }

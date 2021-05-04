@@ -1,7 +1,6 @@
 import React, { HTMLAttributes, ReactNode } from 'react';
 import classNames from 'classnames';
 import { Drawer, DrawerProps } from '@learn-harmony/elements.drawer';
-// import { BaseIcon } from '@teambit/base-ui.elements.icon';
 import { Menu } from './menu';
 import styles from './dropdown.module.scss';
 import { DownArrow } from './down-arrow';
