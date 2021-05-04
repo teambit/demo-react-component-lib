@@ -3,7 +3,7 @@ import classNames from 'classnames';
 
 import BaseButton, {
   ButtonProps as BaseProps,
-} from '@learn-harmony/elements.inputs.button';
+} from '@learn-harmony/base-ui.elements.inputs.button';
 
 import styles from './button.module.scss';
 import elevations from './elevations.module.scss';

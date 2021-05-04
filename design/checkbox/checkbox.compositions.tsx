@@ -1,6 +1,6 @@
 import React, { useState, CSSProperties } from 'react';
-import { Theme } from '@learn-harmony/styles.theme-provider';
-import { darkMode } from '@learn-harmony/styles.colors.dark-color-palette';
+import { Theme } from '@learn-harmony/base-ui.styles.theme-provider';
+import { darkMode } from '@learn-harmony/base-ui.styles.colors.dark-color-palette';
 import { Checkbox } from './checkbox';
 
 export function Checked() {

@@ -5,7 +5,7 @@ import classNames from 'classnames';
 // import Spinner from '@bit/bit.base-ui.ellipsis';
 
 import styles from './button.module.scss';
-import { DotsLoader } from '@learn-harmony/elements.loaders.dots-loader';
+import { DotsLoader } from '@learn-harmony/base-ui.elements.dots-loader';
 
 // const defaultSpinner = (
 // 	<Spinner color="#ffffff" size={18} style={{ verticalAlign: 'middle' }} />

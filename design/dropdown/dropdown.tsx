@@ -1,6 +1,6 @@
 import React, { HTMLAttributes, ReactNode } from 'react';
 import classNames from 'classnames';
-import { Drawer, DrawerProps } from '@learn-harmony/elements.drawer';
+import { Drawer, DrawerProps } from '@learn-harmony/base-ui.surfaces.drawer';
 import { Menu } from './menu';
 import styles from './dropdown.module.scss';
 import { DownArrow } from './down-arrow';

@@ -1,9 +1,9 @@
 import React, { ReactNode, ChangeEvent } from 'react';
-import { HiddenCheckbox } from '@learn-harmony/elements.inputs.checkbox.hidden';
+import { HiddenCheckbox } from '@learn-harmony/base-ui.elements.inputs.checkbox.hidden';
 import {
   CheckboxIndicator,
   classes,
-} from '@learn-harmony/elements.inputs.checkbox.indicator';
+} from '@learn-harmony/base-ui.elements.inputs.checkbox.indicator';
 
 export { HiddenCheckbox as Input };
 

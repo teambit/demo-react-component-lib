@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import {
   Containee,
   ContaineeProps,
-} from '@learn-harmony/elements.abs-container';
+} from '@learn-harmony/base-ui.surfaces.abs-container';
 
 import styles from './menu.module.scss';
 

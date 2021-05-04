@@ -1,7 +1,7 @@
 import React, { HTMLAttributes } from 'react';
 import classNames from 'classnames';
-import { Ellipsis } from '@learn-harmony/elements.ellipsis';
-import { UserAvatar } from '@learn-harmony/design-system.avatar';
+import { Ellipsis } from '@learn-harmony/base-ui.elements.ellipsis';
+import { UserAvatar } from '@learn-harmony/design.avatar';
 import styles from './item.module.scss';
 
 export type ItemProps = {

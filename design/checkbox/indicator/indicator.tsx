@@ -4,7 +4,7 @@ import classnames from 'classnames';
 import {
   CheckboxIndicator as CheckboxIndicatorBase,
   CheckboxIndicatorProps as BaseProps,
-} from '@learn-harmony/elements.inputs.checkbox.indicator';
+} from '@learn-harmony/base-ui.elements.inputs.checkbox.indicator';
 
 import styles from './indicator.module.scss';
 

@@ -4,7 +4,7 @@ import { CheckboxIndicator } from './indicator';
 import {
   CheckboxLabel as CheckboxLabelBase,
   CheckboxLabelProps as BaseProps,
-} from '@learn-harmony/elements.inputs.checkbox.label';
+} from '@learn-harmony/base-ui.elements.inputs.checkbox.label';
 
 export type CheckboxProps = BaseProps;
 

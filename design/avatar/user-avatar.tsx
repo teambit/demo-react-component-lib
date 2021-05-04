@@ -4,9 +4,9 @@ import Tooltip, { Place, Type, Effect } from 'react-tooltip';
 import { v1 } from 'uuid';
 import { AvatarIcon } from './avatar-icon';
 import { addAvatarQueryParams } from './add-avatar-query-params';
-import { getInitials } from '@learn-harmony/elements.utility-functions.get-initials';
-import { letterBgColors } from '@learn-harmony/design-system.colors-by-letter';
-import { ellipsis } from '@learn-harmony/elements.ellipsis';
+import { getInitials } from '@learn-harmony/base-ui.utils.get-initials';
+import { letterBgColors } from '@learn-harmony/design.colors-by-letter';
+import { ellipsis } from '@learn-harmony/base-ui.elements.ellipsis';
 import { AccountObj } from './avatar';
 import styles from './styles.module.scss';
 

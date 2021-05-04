@@ -1,11 +1,17 @@
 import React from 'react';
 import { DotsLoader } from './dots-loader';
-import { Theme } from '@teambit/base-ui.theme.theme-provider';
+import { Theme } from '@learn-harmony/base-ui.styles.theme-provider';
 
 export const BasicDotsLoader = () => (
-	<Theme>
-		<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-			<DotsLoader />
-		</div>
-	</Theme>
+  <Theme>
+    <div
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}
+    >
+      <DotsLoader />
+    </div>
+  </Theme>
 );
