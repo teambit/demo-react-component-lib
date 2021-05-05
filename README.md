@@ -3,13 +3,10 @@
 ### A Bit workspace demostrating best practices to structuring design systems with Bit.
 
 
-The design system is structured out of three scopes:
+* [Base-UI](https://bit.dev/learn-harmony/base-ui): An organization’s basic and commonly-used UI components and styling.
 
-* [Elements](https://bit.dev/learn-harmony/elements): Elementary components, hooks and utils. Unopinionated building blocks for the composition of design systems.
+* [Design](https://bit.dev/learn-harmony/design): An organization's specific (sub)brand scope with highly opinionated UI components and theme provider.
 
-* [Styles](https://bit.dev/learn-harmony/styles): A collection of components that form one or more themes. That includes, fonts, color palettes, sizes, and more.
-
-* [Design System](https://bit.dev/learn-harmony/design-system): A collection of opinionated components, composed almost entirely out of 'Styles' and 'Elements' components. The 'Design System' components form a single uniform design language.
 
 ---
 
