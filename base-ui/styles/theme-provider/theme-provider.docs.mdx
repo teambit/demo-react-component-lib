@@ -3,7 +3,7 @@ description: Applies shared styles to all child components.
 ---
 
 import { Theme } from './theme-provider';
-import { Checkbox } from '@learn-harmony/design.checkbox';
+import { CheckBox } from '@learn-harmony/design.check-box';
 import { darkMode } from '@learn-harmony/base-ui.styles.colors.dark-color-palette';
 
 Applied styling includes:
@@ -17,14 +17,11 @@ Applied styling includes:
 #### Using the theme provider
 
 ```jsx live
-// import { Theme } from './theme-provider';
-// import { Checkbox } from '@learn-harmony/design-system.checkbox';
-
 () => {
   return (
     <div>
       <Theme>
-        <Checkbox defaultChecked> A label</Checkbox>
+        <CheckBox defaultChecked> A label</CheckBox>
       </Theme>
     </div>
   );
@@ -46,7 +43,7 @@ Applied styling includes:
   return (
     <Theme className={darkMode}>
       <div style={style}>
-        <Checkbox defaultChecked> A label</Checkbox>
+        <CheckBox defaultChecked> A label</CheckBox>
       </div>
     </Theme>
   );

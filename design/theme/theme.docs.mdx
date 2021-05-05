@@ -1,14 +1,51 @@
 ---
-labels: ['react', 'theme']
-description: 'The ThemeContext is used to style components with the design theme.'
+description: Applies shared styles to all child components.
 ---
 
 import { Theme } from './theme';
+import { CheckBox } from '@learn-harmony/design.check-box';
+import { darkMode } from '@learn-harmony/base-ui.styles.colors.dark-color-palette';
+import { Button } from '@learn-harmony/design.button';
 
-### Wrap your components with the theme to add theming to your components
+Applied styling includes:
 
-```ts
-<Theme>
-  <div>themed</div>
-</Theme>
+- Colors
+- Headers and paragraphs font-size, margins, etc
+- Brand font
+- Shadows
+- Specific brand related styles
+
+#### Using the theme provider
+
+```jsx live
+// import { Theme } from './theme-provider';
+// import { Checkbox } from '@learn-harmony/design-system.checkbox';
+
+() => {
+  return (
+    <Theme>
+      <Button importance="ghost" style={{ width: 120 }}>
+        Update
+      </Button>
+    </Theme>
+  );
+};
+```
+
+#### Using the theme provider in 'dark mode'
+
+```jsx live
+// import { Theme } from './theme-provider';
+// import { Button } from '@learn-harmony/design.button';
+// import { darkMode } from '@learn-harmony/styles.colors.dark-color-palette';
+
+() => {
+  return (
+    <Theme className={darkMode}>
+      <Button importance="ghost" style={{ width: 120 }}>
+        Update
+      </Button>
+    </Theme>
+  );
+};
 ```

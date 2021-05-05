@@ -3,6 +3,7 @@ labels: ['react', 'ui', 'dropdown']
 description: A designed dropdown to present a clickable list of items
 ---
 
+import { Theme } from '@learn-harmony/design.theme';
 import { Dropdown } from './dropdown';
 import { Item } from './item';
 import { dropdownList } from './dropdown.mock';
@@ -11,31 +12,35 @@ import { hoverable } from '@learn-harmony/base-ui.styles.characteristics.hoverab
 ### Usage example for the Dropdown
 
 ```ts live
-<Dropdown
-  placeholder={false}
-  placeholderTitle={
-    <Item image="https://static.bit.dev/bit-logo.svg" name="teambit" />
-  }
->
-  {dropdownList.map((listItem, index) => (
-    <Item
-      key={index}
-      image={listItem.image}
-      name={listItem.name}
-      className={hoverable}
-    />
-  ))}
-</Dropdown>
+<Theme>
+  <Dropdown
+    placeholder={false}
+    placeholderTitle={
+      <Item image="https://static.bit.dev/bit-logo.svg" name="teambit" />
+    }
+  >
+    {dropdownList.map((listItem, index) => (
+      <Item
+        key={index}
+        image={listItem.image}
+        name={listItem.name}
+        className={hoverable}
+      />
+    ))}
+  </Dropdown>
+</Theme>
 ```
 
 ### Usage example for the Item
 
-The dropdown also provides an `Item` component, which is separetaly avilable for usage:
+The dropdown also provides an `Item` component, which is separately available for usage:
 
 ```ts live
-<Item
-  className={hoverable}
-  image="https://static.bit.dev/bit-logo.svg"
-  name="teambit"
-/>
+<Theme>
+  <Item
+    className={hoverable}
+    image="https://static.bit.dev/bit-logo.svg"
+    name="teambit"
+  />
+</Theme>
 ```

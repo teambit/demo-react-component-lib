@@ -35,7 +35,6 @@ export function Button({
   return (
     <BaseButton
       className={classNames(styles.Button, elevations[elevation], className)}
-      data-bit-id="teambit.evangelist/elements/button"
       data-variation={importance}
       {...rest}
     />

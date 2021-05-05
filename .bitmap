@@ -13,11 +13,11 @@
         "mainFile": "index.tsx",
         "rootDir": "design/button"
     },
-    "checkbox": {
+    "check-box": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "design/checkbox"
+        "rootDir": "design/check-box"
     },
     "colors-by-letter": {
         "scope": "",
