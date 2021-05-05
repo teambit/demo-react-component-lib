@@ -2,14 +2,15 @@ import React from 'react';
 import classNames from 'classnames';
 import styles from './input.module.scss';
 
-type InputProps = {
+export type InputProps = {
   error: boolean;
 } & React.InputHTMLAttributes<HTMLInputElement>;
-type TextareaProps = {
+
+export type TextareaProps = {
   error: boolean;
 } & React.InputHTMLAttributes<HTMLTextAreaElement>;
 
-export function Input(props: InputProps) {
+export const Input = (props: InputProps) => {
   const { className, error, ...rest } = props;
 
   return (
@@ -19,9 +20,9 @@ export function Input(props: InputProps) {
       className={classNames(className, styles.evaInput)}
     />
   );
-}
+};
 
-export function TextArea(props: TextareaProps) {
+export const TextArea = (props: TextareaProps) => {
   const { className, error, ...rest } = props;
   return (
     <textarea
@@ -30,4 +31,4 @@ export function TextArea(props: TextareaProps) {
       className={classNames(className, styles.evaInput)}
     />
   );
-}
+};

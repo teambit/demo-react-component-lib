@@ -1,7 +1,3 @@
-/**
- * return a two-letters initials of a full name
- * @param name string to get initials from
- */
 export function getInitials(name: string) {
   if (!name) return undefined;
 

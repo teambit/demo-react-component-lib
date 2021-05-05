@@ -19,13 +19,6 @@ export type ButtonProps = {
   importance?: 'normal' | 'ghost' | 'cta' | 'muted';
 } & BaseProps;
 
-/**
- * Button component with click effect and built in loader.
- * Supports all props from native html button.
- * @name Button
- * @example
- * 	<Button importance="cta" elevation="medium" loading loader={<Loader/>}>Click me!</Button>
- */
 export function Button({
   className,
   importance = 'normal',

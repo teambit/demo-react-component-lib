@@ -2,11 +2,11 @@
   - For Gravatar, adds size
   - For ImgIX, adds size, default background, and scaling method **/
 
-export function addAvatarQueryParams(
+export const addAvatarQueryParams = (
   url: string,
   size: string | number,
   defaultAvatarBgColor: string
-) {
+) => {
   if (!url) return url;
 
   const isQuestionExisting = url.indexOf('?') > -1;
@@ -24,4 +24,4 @@ export function addAvatarQueryParams(
   const params: string[] = e.concat(gravatarParams, imgixParams);
 
   return `${url}${controlChar}${params.join('&')}`;
-}
+};

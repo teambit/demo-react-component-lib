@@ -9,7 +9,7 @@ import colors from './colors.module.scss';
 
 export type ThemeProps = {} & HTMLAttributes<HTMLDivElement>;
 
-export function Theme({ children, className, ...rest }: ThemeProps) {
+export const Theme = ({ children, className, ...rest }: ThemeProps) => {
   return (
     <BaseTheme
       {...rest}
@@ -24,4 +24,4 @@ export function Theme({ children, className, ...rest }: ThemeProps) {
       {children}
     </BaseTheme>
   );
-}
+};
