@@ -8,7 +8,9 @@ import { primaryPalette } from '@learn-harmony/base-ui.styles.colors.primary-col
 import { bookFont } from '@learn-harmony/base-ui.styles.fonts.book';
 import texts from './texts.module.scss';
 
-export function Theme(props: React.HTMLAttributes<HTMLDivElement>) {
+export type ThemeProps = {} & React.HTMLAttributes<HTMLDivElement>;
+
+export const Theme = (props: ThemeProps) => {
   return (
     <div
       {...props}
@@ -22,4 +24,4 @@ export function Theme(props: React.HTMLAttributes<HTMLDivElement>) {
       )}
     ></div>
   );
-}
+};

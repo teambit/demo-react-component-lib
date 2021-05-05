@@ -1,1 +1,1 @@
-export * from './sizes';
+export { PossibleSizes } from './sizes';
