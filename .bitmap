@@ -151,6 +151,12 @@
         "mainFile": "index.ts",
         "rootDir": "design/text-input"
     },
+    "theme": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "design/theme"
+    },
     "utils/get-initials": {
         "scope": "",
         "version": "",

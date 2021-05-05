@@ -40,6 +40,7 @@
       "dependencies": {
         "@testing-library/react": "11.2.6",
         "react-tooltip": "4.2.18",
+        "reset-css": "5.0.1",
         "sinon": "10.0.0",
         "uuid": "8.3.2"
       },
