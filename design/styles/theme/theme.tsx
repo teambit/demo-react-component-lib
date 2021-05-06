@@ -9,11 +9,13 @@ import { bookFont } from '@learn-harmony/design.styles.fonts.book';
 // import texts from './texts.module.scss';
 import {
   Theme as BaseTheme,
-  ThemeProps,
+  ThemeProps as BaseThemeProps,
 } from '@learn-harmony/base-ui.theme-provider';
 // import sizes from './sizes.module.scss';
 // import global from './global.module.scss';
 // import colors from './colors.module.scss';
+
+export type ThemeProps = {} & BaseThemeProps;
 
 export const Theme = ({ children, className, ...rest }: ThemeProps) => {
   return (

@@ -1,50 +1,21 @@
 ---
-description: Applies shared styles to all child components.
+description: A generic theme provider
 ---
 
 import { Theme } from './theme-provider';
-import { CheckBox } from '@learn-harmony/design.check-box';
-import { darkMode } from '@learn-harmony/design.styles.colors.dark-color-palette';
+import styles from './docs/purple.module.scss';
 
-Applied styling includes:
-
-- Colors
-- Headers and paragraphs font-size, margins, etc
-- Brand font
-- Shadows
-- Specific brand related styles
+Use the theme provider to compose brand-specific themes.
 
 #### Using the theme provider
 
 ```jsx live
-() => {
-  return (
-    <div>
-      <Theme>
-        <CheckBox defaultChecked> A label</CheckBox>
-      </Theme>
-    </div>
-  );
-};
-```
-
-#### Using the theme provider in 'dark mode'
-
-```jsx live
-// import { Theme } from './theme-provider';
-// import { Checkbox } from '@learn-harmony/design-system.checkbox';
-// import { darkMode } from '@learn-harmony/styles.colors.dark-color-palette';
+// import styles from './purple.module.scss';
 
 () => {
-  const style = {
-    backgroundColor: 'var(--bg-bedrock)',
-    padding: 25,
-  };
   return (
-    <Theme className={darkMode}>
-      <div style={style}>
-        <CheckBox defaultChecked> A label</CheckBox>
-      </div>
+    <Theme className={styles.purple}>
+      <p style={{ color: 'var(--primary-color)' }}>This is a styled element </p>
     </Theme>
   );
 };
