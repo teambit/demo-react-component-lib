@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://harmony-docs.bit.dev/workspace/configurations
- **/{
+ **/ {
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -50,19 +50,19 @@
       }
     },
     "packageManagerArgs": [],
-    "devFilePatterns": [
-      "**/*.spec.ts"
-    ],
+    "devFilePatterns": ["**/*.spec.ts"],
     "strictPeerDependencies": true
   },
   "teambit.workspace/variants": {
-    "base-ui/styles/theme-provider,base-ui/hooks/,base-ui/surfaces/,design/": {
+    "*": {
+      "exclude": ["{styles/*},{utils/*}"],
       "teambit.react/react": {}
     },
-    "base-ui/styles/": {
-      "exclude": [
-        "theme-provider"
-      ],
+    "{styles/theme}": {
+      "teambit.react/react": {}
+    },
+    "{styles/*,utils/*}": {
+      "exclude": ["{styles/theme}"],
       "teambit.harmony/node": {}
     },
     "base-ui/": {
