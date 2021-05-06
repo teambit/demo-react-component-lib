@@ -1,8 +1,8 @@
 import React from 'react';
 import classNames from 'classnames';
-import { Theme } from '@learn-harmony/design.theme';
-import { menuTransition } from '@learn-harmony/base-ui.styles.transitions.menu-transition';
-import { hoverable } from '@learn-harmony/base-ui.styles.characteristics.hoverable';
+import { Theme } from '@learn-harmony/design.styles.theme';
+import { menuTransition } from '@learn-harmony/design.styles.transitions.menu-transition';
+import { hoverable } from '@learn-harmony/design.styles.characteristics.hoverable';
 import { Dropdown } from './dropdown';
 import { Item } from './item';
 import { dropdownList, dropdownListWithLongNames } from './dropdown.mock';

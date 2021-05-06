@@ -2,164 +2,164 @@
 
 {
     "avatar": {
-        "scope": "learn-harmony.design",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
         "rootDir": "design/avatar"
     },
     "button": {
-        "scope": "learn-harmony.design",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "index.tsx",
         "rootDir": "design/button"
     },
     "check-box": {
-        "scope": "learn-harmony.design",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
         "rootDir": "design/check-box"
     },
     "colors-by-letter": {
-        "scope": "learn-harmony.design",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
         "rootDir": "design/colors-by-letter"
     },
     "dropdown": {
-        "scope": "learn-harmony.design",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
         "rootDir": "design/dropdown"
     },
     "elements/dots-loader": {
-        "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
         "rootDir": "base-ui/elements/dots-loader"
     },
     "elements/ellipsis": {
-        "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
         "rootDir": "base-ui/elements/ellipsis"
     },
     "elements/inputs/button": {
-        "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
         "rootDir": "base-ui/elements/inputs/button"
     },
     "elements/inputs/checkbox/hidden": {
-        "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
         "rootDir": "base-ui/elements/inputs/checkbox/hidden"
     },
     "elements/inputs/checkbox/indicator": {
-        "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
         "rootDir": "base-ui/elements/inputs/checkbox/indicator"
     },
     "elements/inputs/checkbox/label": {
-        "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
         "rootDir": "base-ui/elements/inputs/checkbox/label"
     },
     "hooks/use-click-outside": {
-        "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
         "rootDir": "base-ui/hooks/use-click-outside"
     },
     "styles/characteristics/hoverable": {
-        "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
-        "rootDir": "base-ui/styles/characteristics/hoverable"
+        "rootDir": "design/styles/characteristics/hoverable"
     },
     "styles/colors/colors": {
-        "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "colors.module.scss",
-        "rootDir": "base-ui/styles/colors/colors"
+        "rootDir": "design/styles/colors/colors"
     },
     "styles/colors/dark-color-palette": {
-        "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
-        "rootDir": "base-ui/styles/colors/dark-color-palette"
+        "rootDir": "design/styles/colors/dark-color-palette"
     },
     "styles/colors/primary-color-palette": {
-        "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
-        "rootDir": "base-ui/styles/colors/primary-color-palette"
+        "rootDir": "design/styles/colors/primary-color-palette"
     },
     "styles/fonts/book": {
-        "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
-        "rootDir": "base-ui/styles/fonts/book"
+        "rootDir": "design/styles/fonts/book"
     },
     "styles/fonts/roboto": {
-        "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
-        "rootDir": "base-ui/styles/fonts/roboto"
+        "rootDir": "design/styles/fonts/roboto"
     },
     "styles/sizes/size-definition": {
-        "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
-        "rootDir": "base-ui/styles/sizes/size-definition"
+        "rootDir": "design/styles/sizes/size-definition"
     },
     "styles/sizes/sizes": {
-        "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
-        "rootDir": "base-ui/styles/sizes/sizes"
+        "rootDir": "design/styles/sizes/sizes"
     },
-    "styles/theme-provider": {
-        "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
-        "mainFile": "index.tsx",
-        "rootDir": "base-ui/styles/theme-provider"
+    "styles/theme": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "design/styles/theme"
     },
     "styles/transitions/menu-transition": {
-        "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
-        "rootDir": "base-ui/styles/transitions/menu-transition"
+        "rootDir": "design/styles/transitions/menu-transition"
     },
     "surfaces/abs-container": {
-        "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
         "rootDir": "base-ui/surfaces/abs-container"
     },
     "surfaces/drawer": {
-        "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
         "rootDir": "base-ui/surfaces/drawer"
     },
     "text-input": {
-        "scope": "learn-harmony.design",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
         "rootDir": "design/text-input"
     },
-    "theme": {
-        "scope": "learn-harmony.design",
-        "version": "0.0.1",
-        "mainFile": "index.ts",
-        "rootDir": "design/theme"
+    "theme-provider": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.tsx",
+        "rootDir": "base-ui/theme-provider"
     },
     "utils/get-initials": {
-        "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "scope": "",
+        "version": "",
         "mainFile": "index.ts",
         "rootDir": "base-ui/utils/get-initials"
     },

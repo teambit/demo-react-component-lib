@@ -1,7 +1,7 @@
 import React from 'react';
 import { Theme } from './theme';
 import { CheckBox } from '@learn-harmony/design.check-box';
-import { darkMode } from '@learn-harmony/base-ui.styles.colors.dark-color-palette';
+import { darkMode } from '@learn-harmony/design.styles.colors.dark-color-palette';
 import { Button } from '@learn-harmony/design.button';
 
 export const LightThemedLabel = () => {

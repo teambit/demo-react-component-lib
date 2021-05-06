@@ -1,6 +1,6 @@
 import React from 'react';
-import { Theme } from '@learn-harmony/design.theme';
-import { darkMode } from '@learn-harmony/base-ui.styles.colors.dark-color-palette';
+import { Theme } from '@learn-harmony/design.styles.theme';
+import { darkMode } from '@learn-harmony/design.styles.colors.dark-color-palette';
 import { Button } from './button';
 
 export const CallToActionButton = ({ ...rest }) => {

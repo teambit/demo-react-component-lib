@@ -1,6 +1,6 @@
 import React from 'react';
 import { DotsLoader } from './dots-loader';
-import { Theme } from '@learn-harmony/base-ui.styles.theme-provider';
+import { Theme } from '@learn-harmony/base-ui.theme-provider';
 
 export const BasicDotsLoader = () => (
   <Theme>

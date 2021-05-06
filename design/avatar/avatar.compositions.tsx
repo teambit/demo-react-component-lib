@@ -1,5 +1,5 @@
 import React from 'react';
-import { Theme } from '@learn-harmony/design.theme';
+import { Theme } from '@learn-harmony/design.styles.theme';
 import { DefaultAvatar, OrgAvatar, UserAvatar } from './index';
 
 const accounts = {

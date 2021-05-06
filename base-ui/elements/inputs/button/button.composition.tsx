@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from './button';
-import { Theme } from '@learn-harmony/base-ui.styles.theme-provider';
+import { Theme } from '@learn-harmony/base-ui.theme-provider';
 
 export const BasicButton = () => (
   <div
