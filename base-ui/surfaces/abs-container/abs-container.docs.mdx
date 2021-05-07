@@ -1,0 +1,33 @@
+---
+description: A container that opens, closes and positions another container
+---
+
+#### Example:
+
+```jsx
+// import { Container } from '@learn-harmony/base-ui.surfaces.abs-container';
+// import { Containee } from '@learn-harmony/base-ui.surfaces.abs-container';
+
+class Drawer extends Component {
+  state = { isOpen: this.props.open || false };
+  ref = createRef();
+  handleLeaveContainer() {}
+  handleEnterContainer() {}
+  handleContainerClick() {}
+  // ...
+
+  render() {
+    return (
+      <Container
+        ref={this.ref}
+        open={isOpen}
+        onMouseLeave={this.handleLeaveContainer}
+        onMouseEnter={this.handleEnterContainer}
+        onClick={this.handleContainerClick}
+      >
+        <Containee></Containee>
+      </Container>
+    );
+  }
+}
+```

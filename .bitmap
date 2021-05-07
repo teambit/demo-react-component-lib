@@ -3,19 +3,19 @@
 {
     "avatar": {
         "scope": "learn-harmony.design",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "design/avatar"
     },
     "button": {
         "scope": "learn-harmony.design",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.tsx",
         "rootDir": "design/button"
     },
     "check-box": {
         "scope": "learn-harmony.design",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "design/check-box"
     },
@@ -27,13 +27,13 @@
     },
     "dropdown": {
         "scope": "learn-harmony.design",
-        "version": "0.0.1",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "design/dropdown"
     },
     "elements/dots-loader": {
         "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "base-ui/elements/dots-loader"
     },
@@ -45,7 +45,7 @@
     },
     "elements/inputs/button": {
         "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "base-ui/elements/inputs/button"
     },
@@ -57,13 +57,13 @@
     },
     "elements/inputs/checkbox/indicator": {
         "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "base-ui/elements/inputs/checkbox/indicator"
     },
     "elements/inputs/checkbox/label": {
         "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "base-ui/elements/inputs/checkbox/label"
     },
@@ -75,7 +75,7 @@
     },
     "styles/characteristics/hoverable": {
         "scope": "learn-harmony.design",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "design/styles/characteristics/hoverable"
     },
@@ -99,7 +99,7 @@
     },
     "styles/fonts/book": {
         "scope": "learn-harmony.design",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "design/styles/fonts/book"
     },
@@ -123,31 +123,31 @@
     },
     "styles/theme": {
         "scope": "learn-harmony.design",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "design/styles/theme"
     },
     "styles/transitions/menu-transition": {
         "scope": "learn-harmony.design",
-        "version": "0.0.1",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "design/styles/transitions/menu-transition"
     },
     "surfaces/abs-container": {
         "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "base-ui/surfaces/abs-container"
     },
     "surfaces/drawer": {
         "scope": "learn-harmony.base-ui",
-        "version": "0.0.1",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "base-ui/surfaces/drawer"
     },
     "text-input": {
         "scope": "learn-harmony.design",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "design/text-input"
     },

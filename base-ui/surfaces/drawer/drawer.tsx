@@ -5,8 +5,8 @@ import React, {
   MutableRefObject,
 } from 'react';
 
-import { Container } from '@teambit/base-ui.surfaces.abs-container';
-import { ClickOutside } from '@teambit/base-ui.hook.use-click-outside';
+import { Container } from '@learn-harmony/base-ui.surfaces.abs-container';
+import { ClickOutside } from '@learn-harmony/base-ui.hooks.use-click-outside';
 //@ts-ignore
 import createRef from 'react-create-ref';
 
