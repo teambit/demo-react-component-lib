@@ -30,7 +30,7 @@ export type CheckBoxProps = {
 
 const checkMarkElement = <div className={styles.icon}>✓</div>;
 
-export function CheckBox(props: CheckBoxProps) {
+export const CheckBox = (props: CheckBoxProps) => {
   return (
     <BaseCheckbox
       {...props}
@@ -39,9 +39,9 @@ export function CheckBox(props: CheckBoxProps) {
       checkMark={checkMarkElement}
     />
   );
-}
+};
 
-function BaseCheckbox(props: CheckBoxProps) {
+const BaseCheckbox = (props: CheckBoxProps) => {
   const {
     inputProps,
     fakeCheckboxProps,
@@ -79,7 +79,7 @@ function BaseCheckbox(props: CheckBoxProps) {
       {children}
     </label>
   );
-}
+};
 
 function separateProps(props: CheckBoxProps) {
   const {

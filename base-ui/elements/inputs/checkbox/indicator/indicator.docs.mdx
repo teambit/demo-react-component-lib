@@ -1,5 +1,11 @@
+---
+description: mirrors a checkbox preceding it, and mimic its state
+labels: ['react', 'typescript', 'input', 'ui']
+---
+
+import { CheckboxIndicator } from './indicator';
+
 Easy styling for the native `<input type="checkbox"/>` tag, using the `input +` css selector.
-This component will mirror a checkbox preceding it, and mimic its state.
 
 Default styles include the following attributes:
 
@@ -8,3 +14,17 @@ Default styles include the following attributes:
 - focus
 
 Use the `className` prop to replace the default styles.
+
+#### Using the indicator component
+
+```jsx live
+() => {
+  return (
+    <div>
+      <input type="checkbox" /> → <CheckboxIndicator />
+      <br />
+      <input type="checkbox" defaultChecked /> → <CheckboxIndicator />
+    </div>
+  );
+};
+```
