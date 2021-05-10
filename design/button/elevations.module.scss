@@ -1,28 +1,26 @@
-// elevations only
-
 .low {
-	box-shadow: var(--shadow-hover-low, initial);
+  box-shadow: var(--shadow-hover-low, initial);
 
-	&:active:not(:disabled) {
-		box-shadow: var(--shadow-resting, initial);
-		transform: translateY(2px);
-	}
+  &:active:not(:disabled) {
+    box-shadow: var(--shadow-resting, initial);
+    transform: translateY(2px);
+  }
 }
 
 .medium {
-	box-shadow: var(--shadow-hover-medium, initial);
+  box-shadow: var(--shadow-hover-medium, initial);
 
-	&:active:not(:disabled) {
-		box-shadow: var(--shadow-resting, initial);
-		transform: translateY(2px);
-	}
+  &:active:not(:disabled) {
+    box-shadow: var(--shadow-resting, initial);
+    transform: translateY(2px);
+  }
 }
 
 .high {
-	box-shadow: var(--shadow-hover-high, initial);
+  box-shadow: var(--shadow-hover-high, initial);
 
-	&:active:not(:disabled) {
-		box-shadow: var(--shadow-resting, initial);
-		transform: translateY(11px);
-	}
+  &:active:not(:disabled) {
+    box-shadow: var(--shadow-resting, initial);
+    transform: translateY(11px);
+  }
 }

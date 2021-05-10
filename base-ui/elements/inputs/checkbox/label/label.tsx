@@ -32,8 +32,7 @@ export interface CheckboxLabelProps
   disabled?: boolean;
 }
 
-/** Custom checkbox with text. */
-export function CheckboxLabel({
+export const CheckboxLabel = ({
   checked,
   defaultChecked,
   onInputChanged,
@@ -49,7 +48,7 @@ export function CheckboxLabel({
   indicator = <CheckboxIndicator className={classes.defaultCheckbox} />,
   children,
   ...rest
-}: CheckboxLabelProps) {
+}: CheckboxLabelProps) => {
   return (
     <label {...rest}>
       {input}
@@ -57,4 +56,4 @@ export function CheckboxLabel({
       {children}
     </label>
   );
-}
+};

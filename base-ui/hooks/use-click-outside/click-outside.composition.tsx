@@ -1,10 +1,8 @@
 import React, { Component, createRef, RefObject, useState } from 'react';
 // @ts-ignore
 import createPolyfillRef from 'react-create-ref';
-
 import { ClickOutside } from './click-outside';
 import { useClickOutside } from './use-click-outside';
-// @ts-ignore
 import styles from './click-outside.composition.module.scss';
 
 export function UsingHook() {

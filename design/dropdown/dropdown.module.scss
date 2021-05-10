@@ -25,7 +25,6 @@
   }
   > * {
     cursor: not-allowed;
-    // this is to override any cursor the title has when disabled
     &:hover {
       cursor: not-allowed;
     }

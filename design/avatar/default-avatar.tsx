@@ -15,15 +15,7 @@ type DefaultAvatarProps = {
 } & React.HTMLAttributes<HTMLDivElement>;
 
 export function DefaultAvatar(props: DefaultAvatarProps) {
-  const {
-    // account = {},
-    size,
-    className,
-    // imgClassName,
-    // hideTooltip = false,
-    ...rest
-  } = props;
-  // const { profileImage = '', name = '', displayName = '' } = account;
+  const { size, className, ...rest } = props;
   return (
     <div
       className={classNames(styles.default, styles.avatar, className)}

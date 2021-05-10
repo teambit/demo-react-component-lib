@@ -1,7 +1,8 @@
 import React from 'react';
 import classNames from 'classnames';
 
-import BaseButton, {
+import {
+  Button as BaseButton,
   ButtonProps as BaseProps,
 } from '@learn-harmony/base-ui.elements.inputs.button';
 
@@ -19,12 +20,12 @@ export type ButtonProps = {
   importance?: 'normal' | 'ghost' | 'cta' | 'muted';
 } & BaseProps;
 
-export function Button({
+export const Button = ({
   className,
   importance = 'normal',
   elevation = 'low',
   ...rest
-}: ButtonProps) {
+}: ButtonProps) => {
   return (
     <BaseButton
       className={classNames(styles.Button, elevations[elevation], className)}
@@ -32,9 +33,9 @@ export function Button({
       {...rest}
     />
   );
-}
+};
 
 Button.defaultProps = {
-  importance: 'normal', //TODO
+  importance: 'normal',
   elevation: 'low',
 };

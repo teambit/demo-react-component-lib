@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { DefaultAvatar } from './default-avatar';
 import { OrgAvatar } from './org-avatar';
 import { UserAvatar } from './user-avatar';

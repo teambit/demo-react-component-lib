@@ -1,15 +1,8 @@
 import React, { Component, ReactNode } from 'react';
 import classNames from 'classnames';
 
-// //@ts-ignore
-// import Spinner from '@bit/bit.base-ui.ellipsis';
-
 import styles from './button.module.scss';
 import { DotsLoader } from '@learn-harmony/base-ui.elements.dots-loader';
-
-// const defaultSpinner = (
-// 	<Spinner color="#ffffff" size={18} style={{ verticalAlign: 'middle' }} />
-// );
 
 export type ButtonProps = {
   /**
@@ -34,7 +27,8 @@ export type ButtonProps = {
  * @example
  * <Button onClick={() => api.submitUserData()} loader={<CustomLoader/> } />
  */
-export default class Button extends Component<ButtonProps> {
+
+export class Button extends Component<ButtonProps> {
   state = { isLoading: false };
   private activePromises = new Set<Promise<any>>();
   private unmounted = false;
@@ -84,7 +78,6 @@ export default class Button extends Component<ButtonProps> {
       ...rest
     } = this.props;
 
-    // ignore internal state when component is controlled
     const isLoading =
       (loading !== undefined && loading) || this.state.isLoading;
 

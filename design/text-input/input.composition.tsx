@@ -1,6 +1,5 @@
 import React from 'react';
 import { Theme } from '@learn-harmony/design.styles.theme';
-import { darkMode } from '@learn-harmony/design.styles.colors.dark-color-palette';
 import { Input, TextArea } from './input';
 
 export const InputExample = () => (

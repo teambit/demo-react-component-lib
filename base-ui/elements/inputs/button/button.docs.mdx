@@ -3,7 +3,7 @@ labels: ['react', 'typescript', 'input', 'button']
 description: 'base button'
 ---
 
-import Button from './button';
+import { Button } from './button';
 
 Base button, with very basic styles.  
 Accepts all parameters of native html button.
@@ -15,7 +15,7 @@ Simply return a Promise from `onClick`, and button will automatically show a loa
 
 ```js live=true
 <Button onClick={() => new Promise((res) => setTimeout(res, 1500))}>
-	Click here to see loader
+  Click here to see loader
 </Button>
 ```
 
@@ -34,11 +34,14 @@ By default, the button is disabled while loading (to prevent duplicate triggers)
 
 ```js live=true
 <>
-	<Button onClick={() => new Promise((res) => setTimeout(res, 1000))} activeWhenLoading>
-		click me repeatedly
-	</Button>{' '}
-	<Button onClick={() => new Promise((res) => setTimeout(res, 1000))}>
-		(cannot) click me repeatedly
-	</Button>
+  <Button
+    onClick={() => new Promise((res) => setTimeout(res, 1000))}
+    activeWhenLoading
+  >
+    click me repeatedly
+  </Button>{' '}
+  <Button onClick={() => new Promise((res) => setTimeout(res, 1000))}>
+    (cannot) click me repeatedly
+  </Button>
 </>
 ```

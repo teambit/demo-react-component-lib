@@ -48,7 +48,7 @@ export function Dropdown({
   open,
   ...rest
 }: DropdownProps) {
-  const preventOpenIfDisabled = disabled ? false : open; // prevent openning dropdown if disabled
+  const preventOpenIfDisabled = disabled ? false : open;
   const title = placeholder || (
     <DefaultPlaceholder
       className={classNames(disabled && styles.disabled, placeholderClass)}

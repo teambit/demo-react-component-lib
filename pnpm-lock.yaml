@@ -1,12 +1,10 @@
 importers:
   .:
     dependencies:
-      '@teambit/base-ui.hook.use-click-outside': registry.npmjs.org/@teambit/base-ui.hook.use-click-outside/0.5.9_react-dom@16.13.1+react@16.13.1
-      '@teambit/base-ui.surfaces.abs-container': registry.npmjs.org/@teambit/base-ui.surfaces.abs-container/0.5.9_react-dom@16.13.1+react@16.13.1
       '@teambit/base-ui.theme.colors': registry.npmjs.org/@teambit/base-ui.theme.colors/0.6.7_react-dom@16.13.1+react@16.13.1
       '@teambit/url.add-avatar-query-params': registry.npmjs.org/@teambit/url.add-avatar-query-params/0.0.300_react-dom@16.13.1+react@16.13.1
       classnames: registry.npmjs.org/classnames/2.2.6
-      core-js: registry.npmjs.org/core-js/3.11.3
+      core-js: registry.npmjs.org/core-js/3.12.1
       react: registry.npmjs.org/react/16.13.1
       react-create-ref: registry.npmjs.org/react-create-ref/1.0.1_react@16.13.1
       react-dom: registry.npmjs.org/react-dom/16.13.1_react@16.13.1
@@ -15,6 +13,7 @@ importers:
       uuid: registry.npmjs.org/uuid/8.3.2
     devDependencies:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.18
+      '@teambit/base-ui.surfaces.abs-container': registry.npmjs.org/@teambit/base-ui.surfaces.abs-container/0.5.9_react-dom@16.13.1+react@16.13.1
       '@teambit/documenter.theme.theme-context': registry.npmjs.org/@teambit/documenter.theme.theme-context/3.0.8_react-dom@16.13.1+react@16.13.1
       '@testing-library/react': registry.npmjs.org/@testing-library/react/11.2.6_react-dom@16.13.1+react@16.13.1
       '@types/jest': registry.npmjs.org/@types/jest/26.0.20
@@ -24,7 +23,6 @@ importers:
       sinon: registry.npmjs.org/sinon/10.0.0
     specifiers:
       '@babel/runtime': 7.12.18
-      '@teambit/base-ui.hook.use-click-outside': 0.5.9
       '@teambit/base-ui.surfaces.abs-container': 0.5.9
       '@teambit/base-ui.theme.colors': 0.6.7
       '@teambit/documenter.theme.theme-context': 3.0.8
@@ -35,7 +33,7 @@ importers:
       '@types/react': ^16.14.6
       chai: 4.2.0
       classnames: 2.2.6
-      core-js: ^3.11.3
+      core-js: ^3.12.1
       react: 16.13.1
       react-create-ref: 1.0.1
       react-dom: 16.13.1
@@ -294,28 +292,13 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/@sinonjs/text-encoding/-/text-encoding-0.7.1.tgz
     version: 0.7.1
-  registry.npmjs.org/@teambit/base-ui.hook.use-click-outside/0.5.9_react-dom@16.13.1+react@16.13.1:
-    dependencies:
-      react: registry.npmjs.org/react/16.13.1
-      react-dom: registry.npmjs.org/react-dom/16.13.1_react@16.13.1
-    dev: false
-    id: registry.npmjs.org/@teambit/base-ui.hook.use-click-outside/0.5.9
-    name: '@teambit/base-ui.hook.use-click-outside'
-    peerDependencies:
-      react: ^16.13.1
-      react-dom: ^16.13.1
-    resolution:
-      integrity: sha512-nYIM33hTw71b9C0gk7fp9qSL1ZfK1bqB56uMNS/BU+2uOhUlZEyuY7PXgYuEate7Mzp07G+24i4HI7tL1wtdHg==
-      registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/@teambit/base-ui.hook.use-click-outside/-/base-ui.hook.use-click-outside-0.5.9.tgz
-    version: 0.5.9
   registry.npmjs.org/@teambit/base-ui.surfaces.abs-container/0.5.9_react-dom@16.13.1+react@16.13.1:
     dependencies:
       classnames: registry.npmjs.org/classnames/2.2.6
       react: registry.npmjs.org/react/16.13.1
       react-create-ref: registry.npmjs.org/react-create-ref/1.0.1_react@16.13.1
       react-dom: registry.npmjs.org/react-dom/16.13.1_react@16.13.1
-    dev: false
+    dev: true
     id: registry.npmjs.org/@teambit/base-ui.surfaces.abs-container/0.5.9
     name: '@teambit/base-ui.surfaces.abs-container'
     peerDependencies:
@@ -807,15 +790,15 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.11.1.tgz
     version: 3.11.1
-  registry.npmjs.org/core-js/3.11.3:
+  registry.npmjs.org/core-js/3.12.1:
     dev: false
     name: core-js
     requiresBuild: true
     resolution:
-      integrity: sha512-DFEW9BllWw781Op5KdYGtXfj3s9Cmykzt16bY6elaVuqXHCUwF/5pv0H3IJ7/I3BGjK7OeU+GrjD1ChCkBJPuA==
+      integrity: sha512-Ne9DKPHTObRuB09Dru5AjwKjY4cJHVGu+y5f7coGn1E9Grkc3p2iBwE9AI/nJzsE29mQF7oq+mhYYRqOMFN1Bw==
       registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/core-js/-/core-js-3.11.3.tgz
-    version: 3.11.3
+      tarball: https://registry.npmjs.org/core-js/-/core-js-3.12.1.tgz
+    version: 3.12.1
   registry.npmjs.org/core-js/3.8.3:
     dev: false
     name: core-js
@@ -1059,7 +1042,6 @@ packages:
   registry.npmjs.org/react-create-ref/1.0.1_react@16.13.1:
     dependencies:
       react: registry.npmjs.org/react/16.13.1
-    dev: false
     id: registry.npmjs.org/react-create-ref/1.0.1
     name: react-create-ref
     peerDependencies:

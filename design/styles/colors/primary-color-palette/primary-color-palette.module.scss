@@ -15,18 +15,18 @@
   --bg-color: #{$w10};
   --separator-color: #{$d20};
 
-  --muted-color: #{$p20}; //unsettled
-  --muted-highlight: #{$p30}; //unsettled
+  --muted-color: #{$p20};
+  --muted-highlight: #{$p30};
 
   --error-color: #{$r50};
   --error-highlight: #{$r60};
   --bg-error: #{$r20};
 
-  --bg-bedrock: #{$w10}; // i.e. <body/> background
-  --bg-base: #{$w10}; // e.g. navigation
-  --bg-layer: #{$w10}; // e.g. card
-  --bg-crust: #{$w10}; // e.g. tooltip
-  --bg-topping: #{$w10}; // e.g. button, input, etc
+  --bg-bedrock: #{$w10};
+  --bg-base: #{$w10};
+  --bg-layer: #{$w10};
+  --bg-crust: #{$w10};
+  --bg-topping: #{$w10};
   --bg-topping-highlight: #{$w20};
   --bg-dent: #{$w20};
 

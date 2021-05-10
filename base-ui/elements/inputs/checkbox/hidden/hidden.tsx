@@ -7,7 +7,6 @@ export type HiddenCheckboxProps = Omit<
   'type'
 >;
 
-/** Hidden but interactive checkbox */
 export function HiddenCheckbox(props: HiddenCheckboxProps) {
   return (
     <input

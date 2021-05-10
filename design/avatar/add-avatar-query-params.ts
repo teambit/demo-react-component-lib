@@ -1,7 +1,3 @@
-/** Adds query params to avatar image, according to the type of the hosting service.
-  - For Gravatar, adds size
-  - For ImgIX, adds size, default background, and scaling method **/
-
 export const addAvatarQueryParams = (
   url: string,
   size: string | number,

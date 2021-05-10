@@ -55,7 +55,6 @@ const BaseCheckbox = (props: CheckBoxProps) => {
   const handleClick = useCallback<MouseEventHandler<HTMLInputElement>>(
     (...args) => {
       const [e] = args;
-      // should we change target?
       fakeCheckboxProps.onClick?.(...args);
       if (e.defaultPrevented) return;
 
@@ -111,21 +110,6 @@ function separateProps(props: CheckBoxProps) {
     onChange,
     defaultChecked,
     defaultValue,
-
-    // // omitted:
-    // height,
-    // max,
-    // maxLength,
-    // min,
-    // minLength,
-    // multiple,
-    // pattern,
-    // placeholder,
-    // size,
-    // src,
-    // type,
-    // value,
-    // width,
     ...rest
   } = props;
 
